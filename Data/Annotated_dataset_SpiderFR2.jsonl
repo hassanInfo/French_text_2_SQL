@@ -1,0 +1,414 @@
+{"id":5654,"text":"Combien d'étudiants sont là?","label":[[0,7,"aggregate_function"],[10,19,"Table_name"]]}
+{"id":5656,"text":"Combien y a-t-il d'étudiants ?","label":[[0,7,"aggregate_function"],[19,28,"Table_name"]]}
+{"id":5658,"text":"\"Quelle est la description du club nommé \"\"Tennis Club\"\" ?\"","label":[[15,26,"Column_name"],[30,34,"Table_name"],[35,40,"comparison_attr"],[43,54,"value"]]}
+{"id":5660,"text":"\"Retrouvez la description du club \"\"Tennis Club\"\".\"","label":[[14,25,"Column_name"],[29,33,"Table_name"],[36,47,"value"]]}
+{"id":5662,"text":"\"Retrouvez la description du club \"\"Pen and Paper Gaming\"\".\"","label":[[14,25,"Column_name"],[29,33,"Table_name"],[36,56,"value"]]}
+{"id":5664,"text":"Quelle est la description du club « Pen and Paper Gaming » ?","label":[[14,25,"Column_name"],[29,33,"Table_name"],[36,56,"value"]]}
+{"id":5666,"text":"\"Quel est l'emplacement du club nommé \"\"Tennis Club\"\" ?\"","label":[[12,23,"Column_name"],[27,31,"Table_name"],[32,37,"comparison_attr"],[40,51,"value"]]}
+{"id":5668,"text":"\"Où se trouve le club nommé \"\"Tennis Club\"\" ?\"","label":[[17,21,"Table_name"],[22,27,"comparison_attr"],[30,41,"value"]]}
+{"id":5670,"text":"\"Trouver l'emplacement du club \"\"Pen and Paper Gaming\"\".\"","label":[[11,22,"Column_name"],[26,30,"Table_name"],[33,53,"value"]]}
+{"id":5672,"text":"Où est situé le club « Pen and Paper Gaming » ?","label":[[7,12,"Column_name"],[16,20,"Table_name"],[23,43,"value"]]}
+{"id":5674,"text":"\"Où se trouve le club \"\"Hopkins Student Enterprises\"\" ?\"","label":[[17,21,"Table_name"],[24,51,"value"]]}
+{"id":5676,"text":"\"Dites-moi où se trouve le club \"\"Hopkins Student Enterprises\"\".\"","label":[[17,23,"Column_name"],[27,31,"Table_name"],[34,61,"value"]]}
+{"id":5680,"text":"Quand les chercheurs ont-ils commencé et cessé de travailler ?","label":[[29,37,"Column_name"],[41,46,"Column_name"],[50,60,"Table_name"]]}
+{"id":5682,"text":"Quelle est la description complète du rôle de chercheur.","label":[[14,25,"Column_name"],[38,42,"Table_name"],[46,55,"value"]]}
+{"id":5684,"text":"Quelle est la description complète du travail d'un chercheur?","label":[[14,25,"Column_name"],[26,34,"Table_name"],[51,60,"value"]]}
+{"id":5688,"text":"Combien de résultats de brevets ont été répertoriés pour tous les projets ?","label":[[0,7,"aggregate_function"],[40,51,"Column_name"],[66,73,"Table_name"]]}
+{"id":5690,"text":"Combien y a-t-il de tâches au total ?","label":[[0,7,"aggregate_function"],[20,26,"Table_name"]]}
+{"id":5692,"text":"Combien y a-t-il de tâches ?","label":[[0,7,"aggregate_function"],[20,26,"Table_name"]]}
+{"id":5694,"text":"Combien de femmes ce réseau compte-t-il ?","label":[[0,7,"aggregate_function"],[11,17,"value"],[21,27,"Table_name"]]}
+{"id":5696,"text":"Combien y a-t-il de femmes dans le réseau ?","label":[[0,7,"aggregate_function"],[20,26,"value"],[35,41,"Table_name"]]}
+{"id":5698,"text":"Quel est l'âge moyen de toute personne ?","label":[[10,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[30,38,"Table_name"]]}
+{"id":5700,"text":"Quel est l'âge moyen de toutes les personnes du tableau ?","label":[[11,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[35,44,"Table_name"]]}
+{"id":5702,"text":"Qui est la personne dont l'âge est inférieur à 30 ans ?","label":[[11,19,"Table_name"],[26,30,"comparison_attr"],[35,44,"comparison_operator"],[47,49,"value"]]}
+{"id":5704,"text":"Comment s'appelle la personne dont l'âge est inférieur à 30 ans ?","label":[[8,17,"Column_name"],[21,29,"Table_name"],[36,40,"comparison_attr"],[45,54,"comparison_operator"],[57,59,"value"]]}
+{"id":5706,"text":"Combien y a-t-il de membres ?","label":[[0,7,"aggregate_function"],[20,27,"Table_name"]]}
+{"id":5708,"text":"Quels sont les noms et pays des membres ?","label":[[15,19,"Column_name"],[23,27,"Column_name"],[32,39,"Table_name"]]}
+{"id":5710,"text":"Afficher les noms des dirigeants et les emplacements des collèges.","label":[[13,17,"Column_name"],[40,52,"Column_name"],[57,65,"Table_name"]]}
+{"id":5712,"text":"Quel est le nombre moyen d'accès aux documents ?","label":[[19,24,"aggregate_function"],[26,32,"aggregate_function_attr"],[37,46,"Table_name"]]}
+{"id":5714,"text":"Trouver le nombre moyen d'accès pour tous les documents ?","label":[[18,23,"aggregate_function"],[26,31,"aggregate_function_attr"],[46,55,"Table_name"]]}
+{"id":5716,"text":"Combien d'utilisateurs sont connectés ?","label":[[0,7,"aggregate_function"],[10,22,"Table_name"]]}
+{"id":5718,"text":"Comptez le nombre d'utilisateurs connectés.","label":[[0,7,"aggregate_function"],[20,32,"Table_name"]]}
+{"id":5720,"text":"Combien y a-t-il d'entreprises ?","label":[[0,7,"aggregate_function"],[19,30,"Table_name"]]}
+{"id":5722,"text":"Comptez le nombre d'entreprises.","label":[[0,7,"aggregate_function"],[20,31,"Table_name"]]}
+{"id":5724,"text":"Quels sont les bénéfices moyens des entreprises ?","label":[[14,24,"aggregate_function_attr"],[25,31,"aggregate_function"],[36,47,"Table_name"]]}
+{"id":5726,"text":"Calculez les profits moyens des entreprises.","label":[[13,20,"aggregate_function_attr"],[21,27,"aggregate_function"],[32,43,"Table_name"]]}
+{"id":5728,"text":"\"Quels sont les ventes maximales et minimales des entreprises dont les industries ne sont pas \"\"bancaires\"\".\"","label":[[16,22,"aggregate_function_attr"],[23,32,"aggregate_function"],[36,45,"aggregate_function"],[50,61,"Table_name"],[71,81,"comparison_attr"],[82,93,"comparison_operator"],[96,105,"value"]]}
+{"id":5730,"text":"\"Trouvez les ventes maximales et minimales des entreprises qui ne sont pas dans le secteur \"\"Banque\"\".\"","label":[[13,19,"aggregate_function_attr"],[20,29,"aggregate_function"],[33,42,"aggregate_function"],[47,58,"Table_name"],[63,74,"comparison_operator"],[83,90,"comparison_attr"],[93,99,"value"]]}
+{"id":5732,"text":"Combien y a-t-il de produits ?","label":[[0,7,"aggregate_function"],[20,29,"Table_name"]]}
+{"id":5734,"text":"Combien y a-t-il de produits ?","label":[[0,7,"aggregate_function"],[20,28,"Table_name"]]}
+{"id":5736,"text":"Comptez le nombre de produits.","label":[[0,7,"Table_name"],[21,29,"Table_name"]]}
+{"id":5738,"text":"Quels sont les noms et les codes types des produits ?","label":[[15,19,"Column_name"],[27,32,"Column_name"],[43,51,"Table_name"]]}
+{"id":5740,"text":"Quel est le prix moyen des produits ?","label":[[12,16,"aggregate_function_attr"],[17,22,"aggregate_function"],[27,35,"Table_name"]]}
+{"id":5742,"text":"Combien y a-t-il d'oeuvres d'art ?","label":[[0,7,"aggregate_function"],[19,32,"Table_name"]]}
+{"id":5744,"text":"Quel est le nombre moyen de spectateurs pour les festivals ?","label":[[19,24,"aggregate_function"],[28,39,"aggregate_function_attr"],[49,58,"Table_name"]]}
+{"id":5746,"text":"Quel est le nombre total de spectateurs qui ont visité l'un des festivals ?","label":[[19,24,"aggregate_function"],[28,39,"aggregate_function_attr"],[64,73,"Table_name"]]}
+{"id":5748,"text":"Combien y a-t-il de locaux ?","label":[[0,7,"aggregate_function"],[20,26,"Table_name"]]}
+{"id":5750,"text":"Quels sont les codes clients les plus grands et les plus petits ?","label":[[15,20,"aggregate_function_attr"],[21,28,"Table_name"],[33,44,"aggregate_function"],[52,63,"aggregate_function"]]}
+{"id":5752,"text":"Renvoyer les codes client maximum et minimum.","label":[[13,18,"aggregate_function_attr"],[19,25,"Table_name"],[26,33,"aggregate_function"],[37,44,"aggregate_function"]]}
+{"id":5754,"text":"Trouvez le prix moyen de tous les vêtements du produit.","label":[[11,15,"aggregate_function_attr"],[16,21,"aggregate_function"],[34,43,"value"],[47,54,"Table_name"]]}
+{"id":5756,"text":"Quel est le prix moyen des vêtements ?","label":[[12,16,"aggregate_function_attr"],[17,22,"aggregate_function"],[27,36,"Table_name"]]}
+{"id":5758,"text":"Énumérez la description de tous les aéronefs.","label":[[12,23,"Column_name"],[36,44,"Table_name"]]}
+{"id":5760,"text":"Quelles sont les descriptions des avions ?","label":[[17,29,"Column_name"],[34,40,"Table_name"]]}
+{"id":5762,"text":"Quel est le nombre moyen de passagers internationaux de tous les aéroports ?","label":[[19,24,"aggregate_function"],[28,52,"aggregate_function_attr"],[65,74,"Table_name"]]}
+{"id":5764,"text":"Quel est le nombre moyen de passagers internationaux pour un aéroport ?","label":[[19,24,"aggregate_function"],[28,53,"aggregate_function_attr"],[61,70,"Table_name"]]}
+{"id":5768,"text":"Combien y a-t-il de passagers internationaux et nationaux à l'aéroport de Londres Heathrow ?","label":[[30,44,"Column_name"],[48,57,"Column_name"],[62,70,"Table_name"],[74,90,"value"]]}
+{"id":5766,"text":"\"Quel est le nombre de passagers internationaux et nationaux de l'aéroport de Londres \"\"Heathrow\"\" ?\"","label":[[23,47,"Column_name"],[51,60,"Column_name"],[65,74,"Table_name"],[88,96,"value"]]}
+{"id":5770,"text":"Quel est le nombre maximum et minimum de passagers en transit de tous les aéroports.","label":[[19,26,"aggregate_function"],[30,37,"aggregate_function"],[41,61,"aggregate_function_attr"],[74,83,"Table_name"]]}
+{"id":5774,"text":"Comment s'appellent les pilotes âgés de 25 ans ou plus ?","label":[[8,19,"Column_name"],[24,31,"Table_name"],[32,36,"comparison_attr"],[40,42,"value"],[47,54,"comparison_operator"]]}
+{"id":5776,"text":"quel est le nom de chaque pilote âgé d'au moins 25 ans ?","label":[[12,15,"Column_name"],[26,32,"Table_name"],[33,36,"comparison_attr"],[37,47,"comparison_operator"],[48,50,"value"]]}
+{"id":5778,"text":"Quel est le dernier jour où un résident a emménagé ?","label":[[31,39,"Table_name"],[42,50,"Column_name"]]}
+{"id":5780,"text":"Indiquez l'identifiant de l'événement client, la date d'emménagement et l'identifiant de propriété correspondants.","label":[[10,22,"Column_name"],[28,44,"Table_name"],[49,68,"Column_name"],[74,98,"Column_name"]]}
+{"id":5782,"text":"Quels sont les effectifs des écoles dont la dénomination n'est pas « catholique » ?","label":[[15,24,"Column_name"],[29,35,"Table_name"],[57,67,"comparison_operator"],[69,79,"value"]]}
+{"id":5784,"text":"Dressez la liste des inscriptions pour chaque école qui n'a pas «catholique» comme dénomination.","label":[[21,33,"Column_name"],[46,51,"Table_name"],[55,63,"comparison_operator"],[65,75,"value"],[84,95,"comparison_attr"]]}
+{"id":5786,"text":"Quel est l'effectif moyen des écoles ?","label":[[11,19,"aggregate_function_attr"],[20,25,"aggregate_function"],[30,36,"Table_name"]]}
+{"id":5788,"text":"Prendre la moyenne des effectifs scolaires.","label":[[11,18,"aggregate_function"],[23,32,"aggregate_function_attr"],[33,42,"Table_name"]]}
+{"id":5790,"text":"Afficher les surnoms des écoles qui ne sont pas en division 1.","label":[[13,20,"Column_name"],[25,31,"Table_name"],[36,47,"comparison_operator"],[51,59,"value"]]}
+{"id":5792,"text":"Quels sont les surnoms des écoles dont la division n'est pas 1 ?","label":[[15,22,"Column_name"],[27,33,"Table_name"],[42,50,"comparison_attr"],[51,60,"comparison_operator"],[61,62,"value"]]}
+{"id":5796,"text":"Quel est le nombre moyen de pages couleur par minute ?","label":[[19,24,"aggregate_function"],[28,33,"aggregate_function_attr"],[28,33,"aggregate_function_attr"]]}
+{"id":5798,"text":"Quel est le nombre total d'inscriptions de tous les collèges ?","label":[[27,39,"Column_name"],[52,60,"Table_name"]]}
+{"id":5800,"text":"Combien d'étudiants sont inscrits au collège?","label":[[10,19,"Column_name"],[37,44,"Table_name"]]}
+{"id":5802,"text":"Quel est le nombre moyen d'inscriptions ?","label":[[19,24,"aggregate_function"],[25,39,"aggregate_function_attr"]]}
+{"id":5804,"text":"Combien d'étudiants, en moyenne, chaque collège compte-t-il inscrits?","label":[[10,19,"Column_name"],[24,31,"aggregate_function"],[40,47,"Table_name"]]}
+{"id":5806,"text":"Combien de collèges au total ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"]]}
+{"id":5808,"text":"Combien y a-t-il de collèges différents ?","label":[[0,7,"aggregate_function"],[20,28,"Table_name"]]}
+{"id":5810,"text":"Combien de collèges ont plus de 15 000 étudiants ?","label":[[11,19,"Column_name"],[24,31,"comparison_operator"],[32,38,"value"],[39,48,"comparison_attr"]]}
+{"id":5812,"text":"Quel est le nombre de collèges avec une population étudiante supérieure à 15 000 ?","label":[[22,30,"Table_name"],[51,60,"comparison_attr"],[61,71,"comparison_operator"],[74,80,"value"]]}
+{"id":5816,"text":"Combien d'étudiants ont reçu un oui aux essais ?","label":[[0,7,"aggregate_function"],[10,19,"Table_name"],[32,35,"value"],[40,46,"comparison_attr"]]}
+{"id":5822,"text":"Combien y a-t-il d'appareils ?","label":[[0,7,"aggregate_function"],[18,28,"Table_name"]]}
+{"id":5824,"text":"Comptez le nombre d'appareils.","label":[[0,7,"aggregate_function"],[20,29,"Table_name"]]}
+{"id":5826,"text":"\"Quels sont les porteurs d'appareils dont les plates-formes logicielles ne sont pas \"\"Android\"\" ?\"","label":[[16,24,"Column_name"],[27,36,"Table_name"],[60,71,"comparison_attr"],[72,83,"comparison_operator"],[86,93,"value"]]}
+{"id":5828,"text":"Renvoyez les transporteurs d'appareils qui n'ont pas Android comme plate-forme logicielle.","label":[[13,26,"Column_name"],[29,38,"Table_name"],[43,53,"comparison_operator"],[53,60,"value"],[67,89,"comparison_attr"]]}
+{"id":5830,"text":"Quelle est la quantité moyenne des stocks ?","label":[[14,22,"aggregate_function_attr"],[23,30,"aggregate_function"],[35,41,"Table_name"]]}
+{"id":5832,"text":"Donner la quantité moyenne des stocks.","label":[[10,18,"aggregate_function_attr"],[19,26,"aggregate_function"],[31,37,"Table_name"]]}
+{"id":5834,"text":"\"Indiquez la date d'ouverture de l'année d'ouverture de la boutique nommée \"\"Apple\"\".\"","label":[[13,29,"Column_name"],[35,52,"Column_name"],[59,67,"Table_name"],[68,74,"comparison_attr"],[77,82,"value"]]}
+{"id":5836,"text":"Quelles sont les dates et les années d'ouverture de la boutique nommée Apple ?","label":[[17,22,"Column_name"],[30,36,"Column_name"],[55,63,"Table_name"],[64,70,"comparison_attr"],[71,76,"value"]]}
+{"id":5840,"text":"Quels sont les noms de magasins des groupes d'ateliers d'art dramatique ?","label":[[15,31,"Column_name"],[36,71,"Table_name"]]}
+{"id":5844,"text":"Trouver la description de la région de commercialisation de la Chine ?","label":[[11,22,"Column_name"],[29,35,"Table_name"],[39,56,"comparison_attr"],[63,68,"value"]]}
+{"id":5846,"text":"Quelles sont les quantités moyennes commandées avec le code de mode de paiement « MasterCard » sur les factures ?","label":[[27,35,"aggregate_function"],[36,46,"aggregate_function_attr"],[55,79,"comparison_attr"],[82,92,"value"]]}
+{"id":5848,"text":"\"Vérifiez l'enregistrement des factures et calculez les quantités moyennes commandées avec le mode de paiement \"\"MasterCard\"\".\"","label":[[12,26,"Column_name"],[31,39,"Table_name"],[66,74,"aggregate_function"],[75,85,"aggregate_function_attr"],[94,110,"comparison_attr"],[113,123,"value"]]}
+{"id":5850,"text":"Combien y a-t-il de groupes ?","label":[[0,7,"aggregate_function"],[20,27,"Table_name"]]}
+{"id":5852,"text":"Trouver le nombre de bandes.","label":[[8,17,"aggregate_function"],[21,27,"Table_name"]]}
+{"id":5854,"text":"Combien y a-t-il de chansons ?","label":[[0,7,"aggregate_function"],[20,28,"Table_name"]]}
+{"id":5856,"text":"Comptez le nombre de chansons.","label":[[0,7,"aggregate_function"],[21,29,"Table_name"]]}
+{"id":5858,"text":"\"Combien de chansons ont utilisé l'instrument \"\"drums\"\" ?\"","label":[[12,20,"Table_name"],[35,45,"comparison_attr"],[48,53,"value"]]}
+{"id":5860,"text":"Combien de chansons utilisent la batterie comme instrument ?","label":[[11,19,"Table_name"],[33,41,"value"],[48,58,"comparison_attr"]]}
+{"id":5862,"text":"Qui est le fondateur de Sony ?","label":[[11,20,"Column_name"],[24,28,"value"]]}
+{"id":5864,"text":"Retour du fondateur de Sony.","label":[[10,19,"Column_name"],[23,27,"value"]]}
+{"id":5866,"text":"Où se trouve le siège social de l'entreprise fondée par James ?","label":[[16,28,"Column_name"],[33,44,"Table_name"],[45,51,"comparison_attr"],[56,61,"value"]]}
+{"id":5868,"text":"Quel est le siège social de l'entreprise dont le fondateur est James ?","label":[[12,24,"Column_name"],[30,40,"Table_name"],[49,58,"comparison_attr"],[63,68,"value"]]}
+{"id":5870,"text":"Quels sont les revenus moyens, maximaux et totaux de toutes les entreprises ?","label":[[15,22,"aggregate_function_attr"],[23,29,"aggregate_function"],[31,39,"aggregate_function"],[43,49,"aggregate_function"],[64,75,"Table_name"]]}
+{"id":5872,"text":"Renvoie les revenus moyens, maximaux et totaux de tous les fabricants.","label":[[12,19,"aggregate_function_attr"],[20,26,"aggregate_function"],[28,36,"aggregate_function"],[40,46,"aggregate_function"],[59,69,"Table_name"]]}
+{"id":5874,"text":"Combien d'entreprises ont été créées par Andy ?","label":[[10,21,"Table_name"],[30,36,"comparison_attr"],[41,45,"value"]]}
+{"id":5876,"text":"Renvoie le nombre d'entreprises créées par Andy.","label":[[19,31,"Table_name"],[32,38,"comparison_attr"],[43,47,"value"]]}
+{"id":5878,"text":"Trouvez le chiffre d'affaires total créé par les entreprises dont le siège social est situé à Austin.","label":[[11,29,"aggregate_function_attr"],[30,35,"aggregate_function"],[49,60,"Table_name"],[69,80,"comparison_attr"],[86,100,"value"]]}
+{"id":5880,"text":"Quelle est la somme des revenus des entreprises dont le siège est à Austin ?","label":[[14,19,"aggregate_function"],[24,31,"aggregate_function_attr"],[36,48,"Table_name"],[56,61,"comparison_attr"],[68,74,"value"]]}
+{"id":5882,"text":"Sélectionnez les noms de tous les produits du magasin.","label":[[17,21,"Column_name"],[34,42,"Table_name"]]}
+{"id":5884,"text":"Quels sont les noms de tous les produits ?","label":[[15,19,"Column_name"],[32,40,"Table_name"]]}
+{"id":5886,"text":"Sélectionnez les noms et les prix de tous les produits du magasin.","label":[[17,21,"Column_name"],[29,33,"Column_name"],[46,54,"Table_name"]]}
+{"id":5888,"text":"Quels sont les noms et les prix de tous les produits du magasin ?","label":[[15,19,"Column_name"],[27,31,"Column_name"],[44,52,"Table_name"]]}
+{"id":5890,"text":"Sélectionnez le nom des produits dont le prix est inférieur ou égal à 200 $.","label":[[16,19,"Column_name"],[24,32,"Table_name"],[41,45,"comparison_attr"],[50,67,"comparison_operator"],[70,73,"value"]]}
+{"id":5892,"text":"Quels sont les noms des produits dont le prix est d'au plus 200 ?","label":[[15,19,"Column_name"],[24,32,"Table_name"],[41,45,"comparison_attr"],[52,59,"comparison_operator"],[60,63,"value"]]}
+{"id":5894,"text":"Calculez le prix moyen de tous les produits.","label":[[12,16,"aggregate_function_attr"],[17,22,"aggregate_function"],[35,43,"Table_name"]]}
+{"id":5898,"text":"Calculez le prix moyen de tous les produits dont le code fabricant est égal à 2.","label":[[12,16,"aggregate_function_attr"],[17,22,"aggregate_function"],[35,43,"Table_name"],[52,66,"comparison_attr"],[71,75,"comparison_operator"],[78,79,"value"]]}
+{"id":5900,"text":"Quel est le prix moyen des produits dont le code fabricant est égal à 2 ?","label":[[12,16,"aggregate_function_attr"],[17,22,"aggregate_function"],[27,35,"Table_name"],[44,58,"comparison_attr"],[63,67,"comparison_operator"],[70,71,"value"]]}
+{"id":5902,"text":"Calculez le nombre de produits dont le prix est supérieur ou égal à 180 $.","label":[[22,30,"Table_name"],[39,43,"comparison_attr"],[48,65,"comparison_operator"],[68,71,"value"]]}
+{"id":5904,"text":"Combien de produits ont des prix d'au moins 180 ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"],[28,32,"comparison_attr"],[35,43,"comparison_operator"],[44,47,"value"]]}
+{"id":5906,"text":"Trouver tous les identifiants et dates des logs pour le problème dont l'identifiant est 10.","label":[[17,29,"Column_name"],[33,38,"Column_name"],[56,64,"Table_name"],[72,83,"comparison_attr"],[88,90,"value"]]}
+{"id":5908,"text":"Pour le problème avec l'identifiant 10, renvoyez les identifiants et les dates de ses journaux de problèmes.","label":[[8,16,"Table_name"],[24,35,"comparison_attr"],[36,38,"value"],[53,65,"Column_name"],[73,78,"Column_name"]]}
+{"id":5910,"text":"Répertoriez tous les ID de journal et leurs descriptions à partir des journaux de problèmes.","label":[[21,23,"Column_name"],[44,56,"Column_name"],[70,91,"Table_name"]]}
+{"id":5912,"text":"Quels sont l'ID de journal et la description d'entrée de chaque problème ?","label":[[13,15,"Column_name"],[33,44,"Column_name"],[64,72,"Table_name"]]}
+{"id":5914,"text":"Quels sont les identifiants des problèmes signalés après le 1978-06-26 ?","label":[[15,27,"Column_name"],[32,41,"Table_name"],[42,50,"comparison_attr"],[51,56,"comparison_operator"],[60,70,"value"]]}
+{"id":5916,"text":"Trouvez les identifiants des problèmes signalés après le 26\/06\/1978.","label":[[12,24,"Column_name"],[29,38,"Table_name"],[39,47,"comparison_attr"],[48,53,"comparison_operator"],[57,67,"value"]]}
+{"id":5918,"text":"Quels sont les identifiants des problèmes signalés avant le 26\/06\/1978 ?","label":[[15,27,"Column_name"],[32,41,"Table_name"],[42,50,"comparison_attr"],[51,56,"comparison_operator"],[60,70,"value"]]}
+{"id":5920,"text":"Quels problèmes sont signalés avant le 1978-06-26 ? Donnez-moi les identifiants des problèmes.","label":[[6,15,"Table_name"],[21,29,"comparison_attr"],[30,35,"comparison_operator"],[39,49,"value"],[67,79,"Column_name"]]}
+{"id":5922,"text":"Trouvez le nombre total d'enregistrements de vote.","label":[[18,23,"aggregate_function"],[26,41,"Table_name"]]}
+{"id":5924,"text":"Combien de bulletins de vote avons-nous ?","label":[[0,7,"aggregate_function"],[11,20,"Table_name"]]}
+{"id":5926,"text":"Combien de couleurs y a-t-il?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"]]}
+{"id":5928,"text":"Comptez le nombre de couleurs.","label":[[0,7,"aggregate_function"],[21,29,"Table_name"]]}
+{"id":5930,"text":"Quels sont les noms et les prix d'achat de tous les produits ?","label":[[15,19,"Column_name"],[27,31,"Column_name"],[52,60,"Table_name"]]}
+{"id":5932,"text":"Renvoyez les noms et les prix d'achat typiques de tous les produits.","label":[[13,17,"Column_name"],[25,29,"Column_name"],[59,67,"Table_name"]]}
+{"id":5934,"text":"Énumérez la description de toutes les couleurs.","label":[[12,23,"Column_name"],[38,46,"Table_name"]]}
+{"id":5936,"text":"Quelles sont les descriptions pour chaque couleur ?","label":[[17,29,"Column_name"],[42,49,"Table_name"]]}
+{"id":5938,"text":"\"Comment s'appellent les produits de la catégorie \"\"Épices\"\" ?\"","label":[[9,20,"Column_name"],[25,33,"Table_name"],[40,49,"comparison_attr"],[52,58,"value"]]}
+{"id":5940,"text":"Renvoie les noms des produits dans la catégorie 'Épices'.","label":[[12,16,"Column_name"],[21,29,"Table_name"],[38,47,"comparison_attr"],[49,55,"value"]]}
+{"id":5942,"text":"\"Combien de produits y a-t-il dans la catégorie \"\"Graines\"\" ?\"","label":[[1,8,"aggregate_function"],[12,20,"Table_name"],[38,47,"comparison_attr"],[50,57,"value"]]}
+{"id":5944,"text":"Comptez le nombre de produits dans la catégorie 'Graines'.","label":[[0,7,"aggregate_function"],[21,29,"Table_name"],[38,47,"comparison_attr"],[48,56,"value"]]}
+{"id":5946,"text":"\"Quelle est la catégorie et le prix d'achat typique du produit portant le nom \"\"cumin\"\" ?\"","label":[[15,24,"Column_name"],[31,35,"Column_name"],[55,62,"Table_name"],[74,77,"comparison_attr"],[80,85,"value"]]}
+{"id":5948,"text":"Renvoie le code de catégorie et le prix type du 'cumin'.","label":[[11,15,"Column_name"],[35,39,"Column_name"],[49,54,"Table_name"]]}
+{"id":5950,"text":"\"A quelle catégorie appartient le produit \"\"lin\"\" ?\"","label":[[9,19,"Column_name"],[34,41,"Table_name"],[44,47,"value"]]}
+{"id":5952,"text":"Quel est le code de la catégorie à laquelle appartient le produit portant le nom 'lin' ?","label":[[12,16,"Column_name"],[58,65,"Table_name"],[77,80,"comparison_attr"],[82,85,"value"]]}
+{"id":5954,"text":"\"Quelle est l'unité de mesure du code de catégorie de produits \"\"Herbes\"\" ?\"","label":[[14,19,"Column_name"],[54,62,"Table_name"],[65,71,"value"]]}
+{"id":5956,"text":"Renvoie l'unité de mesure pour les produits 'Herbe'.","label":[[10,25,"Column_name"],[35,43,"Table_name"],[45,50,"value"]]}
+{"id":5958,"text":"\"Trouvez la description de la catégorie de produits de la catégorie de produits avec le code \"\"Épices\"\".\"","label":[[12,23,"Column_name"],[43,51,"Table_name"],[88,92,"comparison_attr"],[95,101,"value"]]}
+{"id":5960,"text":"Quelle est la description de la catégorie de produit avec le code 'Épices' ?","label":[[14,25,"Column_name"],[45,52,"Table_name"],[61,65,"comparison_attr"],[67,73,"value"]]}
+{"id":5964,"text":"\"Renvoie la description et l'unité de mesure des produits de la catégorie \"\"Herbes\"\".\"","label":[[12,23,"Column_name"],[29,44,"Column_name"],[49,57,"Table_name"],[64,73,"comparison_attr"],[76,82,"value"]]}
+{"id":5966,"text":"Combien y a-t-il d'événements ?","label":[[0,7,"aggregate_function"],[19,29,"Table_name"]]}
+{"id":5968,"text":"Combien y a-t-il de stades ?","label":[[0,7,"aggregate_function"],[20,26,"Table_name"]]}
+{"id":5970,"text":"\"Combien de stades ne sont pas dans le pays \"\"Russie\"\" ?\"","label":[[1,8,"aggregate_function"],[12,18,"Table_name"],[19,30,"comparison_operator"],[39,43,"comparison_attr"],[46,52,"value"]]}
+{"id":5974,"text":"Retrouvez tous les détails pour chaque nageur.","label":[[10,14,"aggregate_function"],[39,45,"Table_name"]]}
+{"id":5976,"text":"Quelle est la capacité moyenne des stades ouverts en 2005 ?","label":[[23,30,"aggregate_function"],[35,41,"aggregate_function_attr"],[42,49,"comparison_attr"],[53,57,"value"]]}
+{"id":5978,"text":"Combien y a-t-il de voies ferrées ?","label":[[0,7,"aggregate_function"],[20,33,"Table_name"]]}
+{"id":5980,"text":"Quel est l'âge moyen de tous les managers ?","label":[[11,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[33,41,"Table_name"]]}
+{"id":5982,"text":"Quels sont les noms et heures d'arrivée des trains ?","label":[[15,19,"Column_name"],[23,29,"Column_name"],[44,50,"Table_name"]]}
+{"id":5984,"text":"Afficher le prix minimum, maximum et moyen pour tous les produits.","label":[[12,16,"aggregate_function_attr"],[17,24,"aggregate_function"],[26,33,"aggregate_function"],[37,42,"aggregate_function"],[57,65,"Table_name"]]}
+{"id":5986,"text":"Trouvez le nom des dortoirs pouvant accueillir plus de 300 étudiants.","label":[[11,14,"Column_name"],[19,27,"Table_name"],[36,46,"comparison_attr"],[47,54,"comparison_operator"],[55,58,"value"],[59,68,"comparison_attr"]]}
+{"id":5988,"text":"Comment s'appellent tous les dortoirs pouvant accueillir plus de 300 étudiants ?","label":[[29,37,"Table_name"],[57,64,"comparison_operator"],[65,68,"value"],[69,78,"comparison_attr"]]}
+{"id":5990,"text":"Combien y a-t-il de dortoirs ?","label":[[0,7,"aggregate_function"],[20,28,"Table_name"]]}
+{"id":5992,"text":"Combien de dortoirs sont dans la base de données ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"],[11,19,"Table_name"],[11,19,"Table_name"]]}
+{"id":5996,"text":"Combien y a-t-il d'équipements de dortoir différents ?","label":[[0,7,"aggregate_function"],[34,52,"Table_name"]]}
+{"id":5998,"text":"Trouvez la capacité totale de tous les dortoirs.","label":[[11,19,"aggregate_function_attr"],[20,26,"aggregate_function"],[39,47,"Table_name"]]}
+{"id":6000,"text":"Quelle est la capacité totale d'étudiants de tous les dortoirs ?","label":[[14,22,"aggregate_function_attr"],[23,29,"aggregate_function"],[54,62,"Table_name"]]}
+{"id":6002,"text":"\"Quelle est la description du produit nommé \"\"Chocolat\"\" ?\"","label":[[15,26,"Column_name"],[30,37,"Table_name"],[38,43,"comparison_attr"],[46,54,"value"]]}
+{"id":6004,"text":"\"Renvoyez la description du produit nommé \"\"Chocolat\"\".\"","label":[[13,24,"Column_name"],[28,35,"Table_name"],[36,41,"comparison_attr"],[44,52,"value"]]}
+{"id":6010,"text":"Combien y a-t-il de soumissions ?","label":[[0,7,"aggregate_function"],[20,31,"Table_name"]]}
+{"id":6012,"text":"Comptez le nombre de soumissions.","label":[[0,7,"aggregate_function"],[21,32,"Table_name"]]}
+{"id":6014,"text":"Quels sont les auteurs des soumissions et leurs collèges ?","label":[[15,22,"Column_name"],[27,38,"Table_name"],[48,57,"Column_name"]]}
+{"id":6016,"text":"Pour chaque soumission, indiquez l'auteur et son collège affilié.","label":[[12,22,"Table_name"],[35,42,"Column_name"],[49,56,"Column_name"]]}
+{"id":6018,"text":"Quelle est la note moyenne des soumissions ?","label":[[14,18,"aggregate_function_attr"],[19,26,"aggregate_function"],[31,42,"Table_name"]]}
+{"id":6020,"text":"Calculez le score moyen des soumissions.","label":[[12,17,"aggregate_function_attr"],[18,23,"aggregate_function"],[28,39,"Table_name"]]}
+{"id":6022,"text":"Afficher les noms et les détails de tous les membres du personnel.","label":[[13,17,"Column_name"],[25,32,"Column_name"],[45,65,"Table_name"]]}
+{"id":6026,"text":"Quels sont les noms des attractions touristiques accessibles en bus ?","label":[[15,19,"Column_name"],[24,48,"Table_name"],[49,60,"comparison_attr"],[64,67,"value"]]}
+{"id":6030,"text":"Combien de jeux vidéo existe-t-il ?","label":[[0,7,"aggregate_function"],[11,21,"Table_name"]]}
+{"id":6032,"text":"Combien de jeux vidéo as-tu ?","label":[[0,7,"aggregate_function"],[11,21,"Table_name"]]}
+{"id":6034,"text":"Afficher tous les jeux vidéo de type Jeu de cartes à collectionner.","label":[[18,28,"Table_name"],[32,36,"comparison_attr"],[37,50,"value"]]}
+{"id":6036,"text":"Comment s'appellent tous les jeux vidéo qui sont des cartes à collectionner ?","label":[[8,19,"Column_name"],[29,39,"Table_name"],[53,59,"comparison_attr"]]}
+{"id":6038,"text":"Quel est le type de jeu vidéo Call of Destiny.","label":[[12,16,"Column_name"],[20,29,"Table_name"],[30,45,"value"]]}
+{"id":6040,"text":"Quel type de jeu est Call of Destiny ?","label":[[5,9,"Column_name"],[13,16,"Table_name"],[21,37,"value"]]}
+{"id":6042,"text":"Combien de jeux vidéo ont le type Jeu en ligne massivement multijoueur ?","label":[[0,7,"aggregate_function"],[11,21,"Table_name"],[29,33,"comparison_attr"],[47,69,"value"]]}
+{"id":6044,"text":"Comptez le nombre de jeux vidéo avec le type de jeu en ligne massivement multijoueur.","label":[[21,31,"Table_name"],[40,51,"comparison_attr"],[55,84,"value"]]}
+{"id":6046,"text":"Afficher les identifiants de tous les étudiants qui ont le conseiller 1121.","label":[[13,25,"Column_name"],[38,47,"Table_name"],[59,69,"comparison_attr"],[70,74,"value"]]}
+{"id":6048,"text":"Quels sont les identifiants de tous les étudiants qui ont le numéro de conseiller 1121 ?","label":[[15,27,"Column_name"],[40,49,"Table_name"],[61,81,"comparison_attr"],[82,86,"value"]]}
+{"id":6050,"text":"Afficher le prénom de tous les étudiants avec le majeur 600.","label":[[12,18,"Column_name"],[31,40,"Table_name"],[49,55,"comparison_attr"],[56,59,"value"]]}
+{"id":6052,"text":"Quels sont les prénoms de tous les élèves de la majeure numérotée 600 ?","label":[[15,22,"Column_name"],[35,41,"Table_name"],[48,55,"comparison_attr"],[66,69,"value"]]}
+{"id":6054,"text":"Combien de jeux sont joués pour tous les élèves ?","label":[[0,7,"aggregate_function"],[11,15,"Table_name"],[21,26,"comparison_attr"],[41,47,"value"]]}
+{"id":6056,"text":"Quel est le nombre total de parties jouées ?","label":[[19,24,"aggregate_function"],[28,42,"Table_name"]]}
+{"id":6058,"text":"Trouver le nom de tous les clients.","label":[[11,14,"Column_name"],[27,34,"Table_name"]]}
+{"id":6062,"text":"Quelle est la quantité moyenne d'articles commandés dans chaque commande ?","label":[[14,22,"aggregate_function_attr"],[23,31,"aggregate_function"],[64,72,"Table_name"]]}
+{"id":6064,"text":"Trouvez la quantité moyenne de commande par commande.","label":[[11,19,"aggregate_function_attr"],[20,27,"aggregate_function"],[44,52,"Table_name"]]}
+{"id":6066,"text":"\"Quels sont les noms des clients qui utilisent le mode de paiement \"\"Cash\"\" ?\"","label":[[16,20,"Column_name"],[25,32,"Table_name"],[52,66,"comparison_attr"],[69,73,"value"]]}
+{"id":6068,"text":"\"Quels clients utilisent \"\"Cash\"\" comme mode de paiement ? Renvoyez les noms des clients.\"","label":[[7,14,"Table_name"],[27,31,"value"],[40,56,"comparison_attr"],[72,76,"Column_name"],[81,88,"Table_name"]]}
+{"id":6070,"text":"Trouvez la ville avec le code postal 255.","label":[[11,16,"Column_name"],[25,36,"comparison_attr"],[37,40,"value"]]}
+{"id":6072,"text":"Dans quelle ville se trouve le code postal 255 ?","label":[[12,17,"Column_name"],[31,42,"comparison_attr"],[43,46,"value"]]}
+{"id":6074,"text":"Quelle est la durée moyenne des canaux de contact dans la base de données ?","label":[[14,19,"aggregate_function_attr"],[20,27,"aggregate_function"],[42,49,"Table_name"]]}
+{"id":6076,"text":"Calculez la durée d'activité moyenne des canaux de contact.","label":[[12,17,"aggregate_function_attr"],[29,36,"aggregate_function"],[51,58,"Table_name"]]}
+{"id":6078,"text":"\"Combien de commandes ont le détail \"\"Deuxième fois\"\" ?\"","label":[[12,21,"Table_name"],[29,35,"comparison_attr"],[38,51,"value"]]}
+{"id":6080,"text":"\"Dites-moi le nombre de commandes avec \"\"Deuxième fois\"\" comme détail de la commande.\"","label":[[24,33,"Table_name"],[41,54,"value"],[63,85,"comparison_attr"]]}
+{"id":6082,"text":"Trouvez le nom des clients qui n'ont pas payé en espèces.","label":[[11,14,"Column_name"],[19,26,"Table_name"],[31,40,"comparison_operator"],[41,45,"comparison_attr"],[49,56,"value"]]}
+{"id":6084,"text":"Comment s'appellent les clients qui n'utilisent pas les espèces comme mode de paiement ?","label":[[24,31,"Table_name"],[48,52,"comparison_operator"],[56,63,"value"],[70,86,"comparison_attr"]]}
+{"id":6086,"text":"Indiquez l'âge de tous les artistes musicaux.","label":[[11,14,"Column_name"],[27,35,"Table_name"]]}
+{"id":6088,"text":"Quel âge ont tous les artistes musicaux ?","label":[[5,8,"Column_name"],[22,30,"Table_name"]]}
+{"id":6090,"text":"Quel est l'âge moyen de tous les artistes ?","label":[[10,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[33,41,"Table_name"]]}
+{"id":6092,"text":"Renvoie l'âge moyen de tous les artistes.","label":[[10,13,"aggregate_function_attr"],[14,19,"aggregate_function"],[32,40,"Table_name"]]}
+{"id":6094,"text":"\"Quels sont les titres célèbres de l'artiste \"\"Triumfall\"\" ?\"","label":[[16,31,"Column_name"],[37,44,"Table_name"],[47,56,"value"]]}
+{"id":6096,"text":"\"Retour des titres célèbres de l'artiste appelé \"\"Triumfall\"\".\"","label":[[12,27,"Column_name"],[33,40,"Table_name"],[50,59,"value"]]}
+{"id":6098,"text":"Quelles sont les différentes dates de sortie de Famous ?","label":[[29,44,"Column_name"],[48,54,"Table_name"]]}
+{"id":6100,"text":"Donnez les dates de sortie célèbres distinctes pour tous les artistes.","label":[[11,35,"Column_name"],[61,69,"Table_name"]]}
+{"id":6102,"text":"Quels sont la semaine maximum et minimum en plus de tous les volumes ?","label":[[14,21,"aggregate_function_attr"],[22,29,"aggregate_function"],[33,40,"aggregate_function"],[44,51,"comparison_operator"]]}
+{"id":6104,"text":"Indiquez les semaines maximales et minimales en haut de tous les volumes.","label":[[13,21,"aggregate_function_attr"],[22,31,"aggregate_function"],[35,44,"aggregate_function"]]}
+{"id":6106,"text":"Quelles sont les chansons en volumes avec plus d'une semaine au top ?","label":[[17,25,"Column_name"],[29,36,"Table_name"],[42,52,"comparison_operator"],[53,60,"value"]]}
+{"id":6108,"text":"Donnez les chansons incluses dans les volumes qui ont plus d'une semaine au-dessus.","label":[[11,19,"Column_name"],[38,45,"Table_name"],[54,58,"comparison_operator"],[65,72,"value"]]}
+{"id":6110,"text":"Combien y a-t-il de montagnes russes ?","label":[[0,7,"aggregate_function"],[20,29,"Table_name"]]}
+{"id":6112,"text":"\"Énumérez les noms des pays dont la langue n'est pas \"\"l'allemand\"\".\"","label":[[14,18,"Column_name"],[23,27,"Table_name"],[36,42,"comparison_attr"],[43,52,"comparison_operator"],[55,65,"value"]]}
+{"id":6114,"text":"Quelle est la vitesse moyenne des montagnes russes ?","label":[[14,21,"aggregate_function_attr"],[22,29,"aggregate_function"],[34,43,"Table_name"]]}
+{"id":6116,"text":"Veuillez me donner une liste des villes dont la population régionale est supérieure à 1 000 000.","label":[[33,39,"Table_name"],[48,68,"comparison_attr"],[73,83,"comparison_operator"],[86,95,"value"]]}
+{"id":6118,"text":"Quelles villes ont une population régionale supérieure à 1 000 000 ?","label":[[8,14,"Table_name"],[23,43,"comparison_attr"],[44,54,"comparison_operator"],[57,66,"value"]]}
+{"id":6120,"text":"\"Trouvez le mode de paiement et le téléphone de la fête avec l'e-mail \"\"enrico09@example.com\"\".\"","label":[[12,16,"Column_name"],[35,44,"Column_name"],[51,55,"Table_name"],[63,69,"comparison_attr"],[72,92,"value"]]}
+{"id":6122,"text":"Quel est le code du mode de paiement et le numéro de téléphone de la partie avec l'e-mail « enrico09@example.com » ?","label":[[12,16,"Column_name"],[53,62,"Column_name"],[69,75,"Table_name"],[83,89,"comparison_attr"],[92,112,"value"]]}
+{"id":6124,"text":"\"Combien de villes y a-t-il dans l'état \"\"Colorado\"\" ?\"","label":[[1,8,"aggregate_function"],[12,18,"Table_name"],[42,49,"value"]]}
+{"id":6126,"text":"Comptez le nombre de villes dans l'état du Colorado.","label":[[0,7,"aggregate_function"],[21,27,"Table_name"],[35,39,"comparison_attr"],[43,51,"value"]]}
+{"id":6128,"text":"Combien d'employés vivent dans l'État de Géorgie ?","label":[[0,7,"aggregate_function"],[10,18,"Table_name"],[33,37,"comparison_attr"],[41,48,"value"]]}
+{"id":6130,"text":"Combien d'employés vivent en Géorgie ?","label":[[0,7,"aggregate_function"],[10,18,"Table_name"],[19,23,"comparison_attr"],[29,36,"value"]]}
+{"id":6132,"text":"Combien y a-t-il de chauffeurs ?","label":[[0,7,"aggregate_function"],[20,30,"Table_name"]]}
+{"id":6134,"text":"Afficher le nom, la ville de résidence et l'âge de tous les conducteurs.","label":[[12,15,"Column_name"],[20,25,"Column_name"],[44,47,"Column_name"],[60,71,"Table_name"]]}
+{"id":6136,"text":"Quelles sont les années maximales, minimales et moyennes passées à travailler sur un autobus scolaire ?","label":[[24,33,"aggregate_function"],[35,44,"aggregate_function"],[48,56,"aggregate_function"],[67,77,"aggregate_function_attr"],[85,101,"Table_name"]]}
+{"id":6138,"text":"Combien de vols ont une vitesse supérieure à 200 ?","label":[[0,7,"aggregate_function"],[11,14,"Table_name"],[24,31,"comparison_attr"],[32,42,"comparison_operator"],[45,48,"value"]]}
+{"id":6140,"text":"Quelle est la participation maximale du groupe dans les sociétés ?","label":[[14,27,"aggregate_function_attr"],[28,36,"aggregate_function"],[56,64,"Table_name"]]}
+{"id":6142,"text":"Quelle est la vitesse du pilote nommé 'Thompson' ?","label":[[14,21,"Column_name"],[25,31,"Table_name"],[32,37,"comparison_attr"],[39,47,"value"]]}
+{"id":6144,"text":"Quels sont les noms des aéroports qui ne sont pas dans le pays 'Islande' ?","label":[[15,19,"Column_name"],[24,33,"Table_name"],[38,49,"comparison_operator"],[58,62,"comparison_attr"],[64,71,"value"]]}
+{"id":6146,"text":"Combien de comptes avons-nous ?","label":[[0,7,"aggregate_function"],[11,18,"Table_name"]]}
+{"id":6148,"text":"Comptez le nombre de comptes.","label":[[0,7,"aggregate_function"],[21,28,"Table_name"]]}
+{"id":6150,"text":"Afficher tous les identifiants de compte et les détails du compte.","label":[[18,30,"Column_name"],[34,40,"Table_name"],[48,56,"Column_name"],[59,65,"Table_name"]]}
+{"id":6152,"text":"Quels sont les identifiants et les détails de tous les comptes ?","label":[[15,27,"Column_name"],[35,42,"Column_name"],[55,62,"Table_name"]]}
+{"id":6154,"text":"Combien de déclarations avons-nous ?","label":[[0,7,"aggregate_function"],[11,23,"Table_name"]]}
+{"id":6156,"text":"Comptez le nombre de déclarations.","label":[[0,7,"aggregate_function"],[21,33,"Table_name"]]}
+{"id":6158,"text":"Répertorier tous les identifiants de relevé et les détails du relevé.","label":[[21,33,"Column_name"],[51,59,"Column_name"],[62,68,"Table_name"]]}
+{"id":6160,"text":"Quels sont les identifiants et les détails de toutes les déclarations ?","label":[[15,27,"Column_name"],[35,42,"Column_name"],[57,69,"Table_name"]]}
+{"id":6162,"text":"Afficher le nombre de documents.","label":[[12,18,"aggregate_function"],[22,31,"Table_name"]]}
+{"id":6164,"text":"Comptez le nombre de documents.","label":[[0,7,"aggregate_function"],[21,30,"Table_name"]]}
+{"id":6166,"text":"Combien de documents avons-nous ?","label":[[0,7,"aggregate_function"],[11,20,"Table_name"]]}
+{"id":6168,"text":"Comptez le nombre de documents.","label":[[0,7,"aggregate_function"],[21,30,"Table_name"]]}
+{"id":6170,"text":"Afficher les identifiants et les noms de tous les documents.","label":[[13,25,"Column_name"],[33,37,"Column_name"],[50,59,"Table_name"]]}
+{"id":6172,"text":"Quels sont les identifiants et les noms de chacun des documents ?","label":[[15,27,"Column_name"],[35,39,"Column_name"],[54,63,"Table_name"]]}
+{"id":6174,"text":"Afficher tous les codes de type de document, les noms de type de document, les descriptions de type de document.","label":[[18,23,"Column_name"],[35,43,"Table_name"],[49,53,"Column_name"],[65,73,"Table_name"],[79,91,"Column_name"],[103,111,"Table_name"]]}
+{"id":6176,"text":"Quels sont les codes, les noms et les descriptions des différents types de documents ?","label":[[15,20,"Column_name"],[26,30,"Column_name"],[38,50,"Column_name"],[75,84,"Column_name"]]}
+{"id":6178,"text":"Quelle est la description du type de document pour le type de document nommé Film ?","label":[[14,25,"Column_name"],[29,33,"Column_name"],[37,45,"Column_name"],[54,58,"comparison_attr"],[77,81,"value"]]}
+{"id":6180,"text":"Renvoie la description du nom du type de document 'Film'.","label":[[11,22,"Column_name"],[33,37,"Table_name"],[41,49,"comparison_attr"],[51,55,"value"]]}
+{"id":6182,"text":"Afficher le nombre de projets.","label":[[12,18,"aggregate_function"],[22,29,"Table_name"]]}
+{"id":6184,"text":"Combien y a-t-il de projets ?","label":[[0,7,"aggregate_function"],[20,27,"Table_name"]]}
+{"id":6186,"text":"Liste des identifiants et des détails pour tous les projets.","label":[[10,22,"Column_name"],[30,37,"Column_name"],[52,59,"Table_name"]]}
+{"id":6188,"text":"Quels sont les identifiants et les détails de chaque projet ?","label":[[15,27,"Column_name"],[35,42,"Column_name"],[53,59,"Table_name"]]}
+{"id":6190,"text":"Combien de types de budget avons-nous ?","label":[[0,7,"aggregate_function"],[20,26,"Table_name"]]}
+{"id":6192,"text":"Comptez le nombre de codes budgétaires.","label":[[0,7,"aggregate_function"],[21,38,"Table_name"]]}
+{"id":6194,"text":"Énumérez tous les codes et descriptions de type de budget.","label":[[18,23,"Column_name"],[27,39,"Column_name"],[43,57,"Table_name"]]}
+{"id":6196,"text":"Quels sont les codes de type et les descriptions de chaque type de budget ?","label":[[15,20,"Column_name"],[36,48,"Column_name"],[59,73,"Table_name"]]}
+{"id":6198,"text":"Combien de documents ont des dépenses ?","label":[[0,7,"aggregate_function"],[11,20,"Table_name"]]}
+{"id":6200,"text":"Comptez le nombre de documents avec dépenses.","label":[[0,7,"aggregate_function"],[21,30,"Table_name"]]}
+{"id":6202,"text":"Trouvez le nombre total de scientifiques.","label":[[18,23,"aggregate_function"],[27,40,"Table_name"]]}
+{"id":6204,"text":"Combien y a-t-il de scientifiques ?","label":[[0,7,"aggregate_function"],[20,33,"Table_name"]]}
+{"id":6206,"text":"Trouver le nombre total d'heures de tous les projets.","label":[[18,23,"aggregate_function"],[26,32,"aggregate_function_attr"],[45,52,"Table_name"]]}
+{"id":6208,"text":"Quel est le nombre total d'heures pour tous les projets ?","label":[[19,24,"aggregate_function"],[27,33,"aggregate_function_attr"],[48,55,"Table_name"]]}
+{"id":6210,"text":"Trouvez les heures moyennes de tous les projets.","label":[[12,18,"aggregate_function_attr"],[19,27,"aggregate_function"],[40,47,"Table_name"]]}
+{"id":6212,"text":"Quelle est la moyenne d'heures sur l'ensemble des projets ?","label":[[14,21,"aggregate_function"],[23,30,"aggregate_function_attr"],[50,57,"Table_name"]]}
+{"id":6214,"text":"Combien y a-t-il de gares ?","label":[[0,7,"aggregate_function"],[20,25,"Table_name"]]}
+{"id":6216,"text":"Afficher le nombre de trains","label":[[22,28,"Table_name"]]}
+{"id":6218,"text":"Lister tous les identifiants de véhicules","label":[[16,28,"Column_name"],[32,41,"Table_name"]]}
+{"id":6220,"text":"Quels sont les identifiants de tous les véhicules ?","label":[[15,27,"Column_name"],[40,49,"Table_name"]]}
+{"id":6222,"text":"Combien de véhicule au total ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"]]}
+{"id":6224,"text":"Combien de véhicules existe-t-il ?","label":[[0,7,"aggregate_function"],[11,20,"Table_name"]]}
+{"id":6226,"text":"Afficher le détail du véhicule avec l'identifiant 1.","label":[[12,17,"Column_name"],[22,30,"Table_name"],[38,49,"comparison_attr"],[50,51,"value"]]}
+{"id":6228,"text":"Quels sont les détails de la voiture avec l'identifiant 1 ?","label":[[15,22,"Column_name"],[29,36,"Table_name"],[44,55,"comparison_attr"],[56,57,"value"]]}
+{"id":6230,"text":"Indiquez le prénom, le deuxième prénom et le nom de famille de tout le personnel.","label":[[12,18,"Column_name"],[23,38,"Column_name"],[45,48,"Column_name"],[71,80,"Table_name"]]}
+{"id":6232,"text":"Quels sont les prénom, deuxième prénom et nom de famille de tout le personnel ?","label":[[15,21,"Column_name"],[23,38,"Column_name"],[42,45,"Column_name"],[68,77,"Table_name"]]}
+{"id":6234,"text":"Combien d'employés portent le prénom Ludie ?","label":[[0,7,"aggregate_function"],[10,18,"Table_name"],[30,36,"comparison_attr"],[37,42,"value"]]}
+{"id":6236,"text":"Combien d'employés ont pour prénom Ludie ?","label":[[0,7,"aggregate_function"],[10,18,"Table_name"],[28,34,"comparison_attr"],[35,40,"value"]]}
+{"id":6238,"text":"Combien de personnel au total ?","label":[[0,7,"aggregate_function"],[11,20,"Table_name"]]}
+{"id":6240,"text":"Combien y a-t-il d'employés?","label":[[0,7,"aggregate_function"],[19,27,"Table_name"]]}
+{"id":6242,"text":"Indiquez le prénom et le nom de tous les clients.","label":[[12,18,"Column_name"],[25,28,"Column_name"],[41,48,"Table_name"]]}
+{"id":6244,"text":"Quels sont les noms et prénoms de tous les clients ?","label":[[15,19,"Column_name"],[23,30,"Column_name"],[43,50,"Table_name"]]}
+{"id":6246,"text":"Liste adresse e-mail et anniversaire du client dont le prénom est Carole.","label":[[6,20,"Column_name"],[24,36,"Column_name"],[40,46,"Table_name"],[55,61,"comparison_attr"],[66,72,"value"]]}
+{"id":6248,"text":"Quelles sont les adresses mail et date de naissance de tous les clients qui se prénomment Carole ?","label":[[17,30,"Column_name"],[34,51,"Column_name"],[64,71,"Table_name"],[79,89,"comparison_attr"],[90,96,"value"]]}
+{"id":6250,"text":"Indiquez le numéro de téléphone et l'adresse e-mail du client avec plus de 2000 soldes impayés.","label":[[12,31,"Column_name"],[37,51,"Column_name"],[55,61,"Table_name"],[67,71,"comparison_operator"],[75,79,"value"],[80,94,"comparison_attr"]]}
+{"id":6252,"text":"Quels sont les numéros de téléphone et les adresses e-mail de tous les clients qui ont un solde impayé supérieur à 2 000 ?","label":[[15,35,"Column_name"],[43,58,"Column_name"],[71,78,"Table_name"],[90,102,"comparison_attr"],[103,112,"comparison_operator"],[115,120,"value"]]}
+{"id":6254,"text":"\"Quelle est la date d'anniversaire des clients classés dans le statut \"\"Bon client\"\" ?\"","label":[[15,34,"Column_name"],[39,46,"Table_name"],[63,69,"comparison_attr"],[72,82,"value"]]}
+{"id":6256,"text":"\"Quelle est la date de naissance de chaque client dont le code de statut est \"\"Bon client\"\" ?\"","label":[[15,32,"Column_name"],[43,49,"Table_name"],[58,72,"comparison_attr"],[79,89,"value"]]}
+{"id":6258,"text":"Quel est le montant maximum, minimum et moyen de l'encours du client ?","label":[[12,19,"aggregate_function_attr"],[20,27,"aggregate_function"],[29,36,"aggregate_function"],[40,45,"aggregate_function"],[62,68,"Table_name"]]}
+{"id":6260,"text":"Quel est le montant maximum, minimum et moyen d'argent restant pour tous les clients ?","label":[[12,19,"aggregate_function_attr"],[20,27,"aggregate_function"],[29,36,"aggregate_function"],[40,45,"aggregate_function"],[77,84,"Table_name"]]}
+{"id":6262,"text":"Combien de cours étaient annulés ?","label":[[0,7,"aggregate_function"],[11,16,"Table_name"],[25,32,"value"]]}
+{"id":6266,"text":"Combien de professeurs avons-nous?","label":[[0,7,"aggregate_function"],[11,22,"Table_name"]]}
+{"id":6268,"text":"Quel est le nombre total de professeurs ?","label":[[19,24,"aggregate_function"],[28,39,"Table_name"]]}
+{"id":6270,"text":"Affichez le rang, le prénom et le nom de famille de tous les professeurs.","label":[[12,16,"Column_name"],[21,27,"Column_name"],[34,37,"Column_name"],[61,72,"Table_name"]]}
+{"id":6272,"text":"Quels sont le grade, le prénom et le nom des membres du corps professoral ?","label":[[14,19,"Column_name"],[24,30,"Column_name"],[37,40,"Column_name"],[56,73,"Table_name"]]}
+{"id":6274,"text":"Afficher le prénom et le nom de tous les instructeurs.","label":[[12,18,"Column_name"],[25,28,"Column_name"],[41,53,"Table_name"]]}
+{"id":6276,"text":"Quels sont le prénom et le nom de tous les instructeurs ?","label":[[14,20,"Column_name"],[27,30,"Column_name"],[43,55,"Table_name"]]}
+{"id":6278,"text":"Quelles activités avons-nous ?","label":[[8,17,"Table_name"]]}
+{"id":6280,"text":"Listez toutes les activités que nous avons.","label":[[18,27,"Table_name"]]}
+{"id":6282,"text":"Combien d'activités avons-nous ?","label":[[0,7,"aggregate_function"],[10,19,"Table_name"]]}
+{"id":6284,"text":"Découvrez le nombre d'activités disponibles.","label":[[22,31,"Table_name"]]}
+{"id":6286,"text":"Trouvez le nom de l'aéroport dans la ville de Goroka.","label":[[11,14,"Column_name"],[20,28,"Table_name"],[37,42,"comparison_attr"],[46,52,"value"]]}
+{"id":6288,"text":"Quels sont les noms des aéroports de la ville de Goroka ?","label":[[15,19,"Column_name"],[24,33,"Table_name"],[40,45,"comparison_attr"],[49,55,"value"]]}
+{"id":6290,"text":"Trouvez le nom, la ville, le pays et l'altitude (ou l'altitude) des aéroports de la ville de New York.","label":[[11,14,"Column_name"],[19,24,"Column_name"],[29,33,"Column_name"],[39,47,"Column_name"],[68,77,"Table_name"],[84,89,"comparison_attr"],[93,101,"value"]]}
+{"id":6292,"text":"Quel est le nom, la ville, le pays et l'altitude de chaque aéroport de la ville de New York ?","label":[[12,15,"Column_name"],[20,25,"Column_name"],[30,34,"Column_name"],[40,48,"Column_name"],[59,67,"Table_name"],[74,79,"comparison_attr"],[83,91,"value"]]}
+{"id":6294,"text":"Combien y a-t-il de compagnies aériennes ?","label":[[0,7,"aggregate_function"],[31,40,"Table_name"]]}
+{"id":6296,"text":"Quel est le nombre total de compagnies aériennes ?","label":[[19,24,"aggregate_function"],[39,48,"Table_name"]]}
+{"id":6298,"text":"Combien de compagnies aériennes compte la Russie ?","label":[[0,7,"aggregate_function"],[22,31,"Table_name"],[42,48,"value"]]}
+{"id":6300,"text":"Quel est le nombre de compagnies aériennes basées en Russie ?","label":[[33,42,"Table_name"],[43,49,"comparison_attr"],[53,59,"value"]]}
+{"id":6302,"text":"Quelle est l'altitude maximale de tous les aéroports du pays islandais ?","label":[[13,21,"aggregate_function_attr"],[22,30,"aggregate_function"],[43,52,"Table_name"],[56,60,"comparison_attr"],[60,70,"value"]]}
+{"id":6304,"text":"Quelle est la plus haute altitude d'un aéroport dans le pays d'Islande ?","label":[[14,24,"aggregate_function"],[25,33,"aggregate_function_attr"],[39,47,"Table_name"],[56,60,"comparison_attr"],[63,70,"value"]]}
+{"id":6306,"text":"\"Trouvez l'identifiant de la commande dont le numéro de suivi d'expédition est \"\"3452\"\".\"","label":[[11,22,"Column_name"],[46,74,"comparison_attr"],[81,85,"value"]]}
+{"id":6308,"text":"\"Quel numéro de suivi d'expédition de commande est \"\"3452\"\" ? Donnez-moi l'identifiant de la commande.\"","label":[[6,21,"comparison_attr"],[38,46,"Table_name"],[53,57,"value"],[75,86,"Column_name"]]}
+{"id":6310,"text":"Trouvez les identifiants de tous les articles de commande dont l'identifiant de produit est 11.","label":[[12,24,"Column_name"],[37,57,"Table_name"],[65,87,"comparison_attr"],[92,94,"value"]]}
+{"id":6312,"text":"Trouvez tous les articles de commande dont l'ID de produit est 11. Quels sont les ID d'articles de commande ?","label":[[17,25,"Table_name"],[45,47,"comparison_attr"],[63,65,"value"],[82,95,"Column_name"]]}
+{"id":6314,"text":"Recherchez les identifiants des commandes expédiées après le 01\/01\/2000.","label":[[15,27,"Column_name"],[32,41,"Table_name"],[42,51,"comparison_attr"],[52,57,"comparison_operator"],[61,71,"value"]]}
+{"id":6316,"text":"Quelles commandes sont expédiées après le 01\/01\/2000 ? Donnez-moi les identifiants de commande.","label":[[8,17,"Table_name"],[23,32,"comparison_attr"],[33,38,"comparison_operator"],[42,53,"value"],[70,82,"Column_name"]]}
+{"id":6318,"text":"Combien d'architectes sont des femmes ?","label":[[0,7,"aggregate_function"],[10,21,"Table_name"],[31,37,"value"]]}
+{"id":6320,"text":"Quelle est la longueur moyenne en pieds des ponts ?","label":[[14,22,"aggregate_function_attr"],[23,30,"aggregate_function"],[44,49,"Table_name"]]}
+{"id":6322,"text":"Combien y a-t-il de clubs de lecture ?","label":[[0,7,"aggregate_function"],[20,36,"Table_name"]]}
+{"id":6324,"text":"Comptez le nombre de clubs de lecture.","label":[[0,7,"aggregate_function"],[21,37,"Table_name"]]}
+{"id":6328,"text":"quelle est la superficie du nouveau mexique","label":[[14,24,"Column_name"],[28,43,"value"]]}
+{"id":6332,"text":"quelle est la superficie de l'état du nouveau mexique","label":[[14,24,"Column_name"],[30,34,"Table_name"],[38,53,"value"]]}
+{"id":6336,"text":"quelle est la superficie du nouveau mexique en kilomètres carrés","label":[[14,24,"Column_name"],[28,43,"value"]]}
+{"id":6338,"text":"combien de personnes vivent en californie","label":[[0,7,"aggregate_function"],[11,20,"Table_name"],[21,27,"comparison_attr"],[31,41,"value"]]}
+{"id":6340,"text":"combien de personnes résident en californie","label":[[0,7,"aggregate_function"],[11,20,"Table_name"],[21,29,"comparison_attr"],[33,43,"value"]]}
+{"id":6342,"text":"combien d'habitants vivent en californie","label":[[0,7,"aggregate_function"],[10,19,"Table_name"],[20,26,"comparison_attr"],[30,40,"value"]]}
+{"id":6350,"text":"combien de personnes sont dans l'état de californie","label":[[0,7,"aggregate_function"],[11,20,"Table_name"],[33,37,"comparison_attr"],[41,51,"value"]]}
+{"id":6362,"text":"donne moi les villes du texas","label":[[14,20,"Table_name"],[24,29,"value"]]}
+{"id":6364,"text":"Dis-moi quelles sont les villes du Texas","label":[[25,31,"Table_name"],[35,40,"value"]]}
+{"id":6420,"text":"quels états voisin kentucky","label":[[6,11,"Table_name"],[12,18,"comparison_attr"],[19,27,"value"]]}
+{"id":6422,"text":"quels états bordent le kentucky","label":[[6,11,"Table_name"],[11,19,"comparison_attr"],[23,31,"value"]]}
+{"id":6426,"text":"Donnez-moi les états qui bordent le Kentucky","label":[[15,20,"Table_name"],[25,32,"comparison_attr"],[36,44,"value"]]}
+{"id":6446,"text":"nommer toutes les rivières de l'illinois","label":[[18,40,"Table_name"]]}
+{"id":6464,"text":"quelles sont les rivières dans l'état de l'illinois","label":[[17,25,"Column_name"],[33,37,"Table_name"],[43,51,"value"]]}
+{"id":6484,"text":"quels états ont des villes nommées springfield","label":[[6,11,"Table_name"],[20,26,"comparison_attr"],[35,46,"value"]]}
+{"id":6488,"text":"dans quel état se trouve springfield","label":[[10,14,"Table_name"],[18,24,"comparison_attr"],[25,36,"value"]]}
+{"id":6490,"text":"quels états ont une ville nommée springfield","label":[[6,11,"Table_name"],[20,25,"comparison_attr"],[33,44,"value"]]}
+{"id":6492,"text":"quel état a la ville de springfield","label":[[5,9,"Table_name"],[15,20,"comparison_attr"],[24,35,"value"]]}
+{"id":6494,"text":"quels états ont des villes nommées springfield","label":[[6,11,"Table_name"],[20,26,"comparison_attr"],[35,46,"value"]]}
+{"id":6504,"text":"combien de personnes vivent à boulder","label":[[0,7,"aggregate_function"],[11,20,"Table_name"],[21,27,"comparison_attr"],[30,37,"value"]]}
+{"id":6508,"text":"combien de personnes vivaient dans le rocher","label":[[0,7,"aggregate_function"],[11,20,"Table_name"],[21,30,"comparison_attr"],[38,44,"value"]]}
+{"id":6510,"text":"nombre de personnes dans le bloc","label":[[0,6,"aggregate_function"],[10,19,"Table_name"],[28,32,"value"]]}
+{"id":6514,"text":"quelle est la taille de la ville de rocher","label":[[14,20,"Column_name"],[27,32,"Table_name"],[36,42,"value"]]}
+{"id":6548,"text":"pourriez-vous me dire quel est le point culminant de l'état du texas","label":[[34,49,"Column_name"],[55,59,"Table_name"],[55,59,"comparison_attr"],[63,68,"value"]]}
+{"id":6568,"text":"quels sont les points les plus élevés de tous les états","label":[[15,21,"aggregate_function_attr"],[26,37,"aggregate_function"],[50,55,"Table_name"]]}
+{"id":6574,"text":"quelles sont les principales villes des états-unis","label":[[17,28,"Column_name"],[29,35,"Table_name"],[40,50,"value"]]}
+{"id":6576,"text":"quelles sont les densités de population de chaque état américain","label":[[17,25,"Column_name"],[29,39,"Table_name"],[50,54,"comparison_attr"],[55,64,"value"]]}
+{"id":6580,"text":"quelle est la densité de population du wyoming","label":[[14,21,"Column_name"],[39,46,"value"]]}
+{"id":6582,"text":"quelle est la densité du wyoming","label":[[14,21,"Column_name"],[25,32,"value"]]}
+{"id":6584,"text":"quel est le point le plus bas de l'iowa","label":[[12,17,"aggregate_function_attr"],[21,29,"aggregate_function"],[35,39,"value"]]}
+{"id":6600,"text":"dans quel état se trouve mount whitney","label":[[10,14,"Table_name"],[18,24,"comparison_attr"],[25,38,"value"]]}
+{"id":6602,"text":"dans quel état est le mont whitney","label":[[10,14,"Table_name"],[22,34,"value"]]}
+{"id":6612,"text":"de quel état salem est la capitale","label":[[8,12,"Table_name"],[13,18,"value"],[26,34,"comparison_attr"]]}
+{"id":6614,"text":"quelle est la capitale de l'état de salem","label":[[14,22,"comparison_attr"],[28,32,"Table_name"],[36,41,"value"]]}
+{"id":6616,"text":"salem est la capitale de quel état","label":[[0,5,"value"],[13,21,"comparison_attr"],[30,34,"Table_name"]]}
+{"id":6618,"text":"quel état a la capitale salem","label":[[5,9,"Table_name"],[15,23,"comparison_attr"],[24,29,"value"]]}
+{"id":6620,"text":"quelle est la hauteur des points les plus élevés de tous les états","label":[[14,21,"aggregate_function_attr"],[33,41,"aggregate_function"],[61,66,"Table_name"]]}
+{"id":6622,"text":"quelle est la population moyenne au kilomètre carré en pennsylvanie","label":[[14,24,"aggregate_function_attr"],[25,32,"aggregate_function"],[55,67,"value"]]}
+{"id":6626,"text":"Montrez-moi tous les principaux lacs des États-Unis","label":[[21,31,"Column_name"],[41,51,"value"]]}
+{"id":6642,"text":"quelle est la densité de population dans l'état avec la capitale austin","label":[[14,35,"Column_name"],[43,47,"Table_name"],[56,64,"comparison_attr"],[65,71,"value"]]}
+{"id":6644,"text":"quelle est l'altitude de la vallée de la mort","label":[[13,21,"Column_name"],[28,34,"Table_name"],[41,45,"value"]]}
+{"id":6646,"text":"Lister toutes les entreprises avec plus de 4,5 étoiles","label":[[18,29,"Table_name"],[35,42,"comparison_operator"],[43,46,"value"],[47,54,"comparison_attr"]]}
+{"id":6648,"text":"Lister toutes les entreprises avec une note de 3,5","label":[[18,29,"Table_name"],[39,43,"comparison_attr"],[47,50,"value"]]}
+{"id":6650,"text":"Trouver tous les états dans lesquels il y a un Whataburger","label":[[17,22,"Table_name"],[47,58,"value"]]}
+{"id":6652,"text":"Retrouvez les villes des entreprises notées en dessous de 1,5","label":[[14,20,"Column_name"],[25,36,"Table_name"],[37,43,"comparison_attr"],[47,57,"comparison_operator"],[58,61,"value"]]}
+{"id":6654,"text":"\"Trouvez toutes les villes qui ont un \"\" Taj Mahal \"\" .\"","label":[[20,26,"Table_name"],[41,50,"value"]]}
+{"id":6656,"text":"Répertorier tous les avis qui ont évalué une entreprise à moins de 1","label":[[21,25,"Column_name"],[34,40,"comparison_attr"],[58,66,"aggregate_function"],[67,68,"value"]]}
+{"id":6662,"text":"retournez-moi tous les mots-clés.","label":[[23,32,"Table_name"]]}
+{"id":6664,"text":"rendez-moi toutes les organisations .","label":[[22,35,"Table_name"]]}
+{"id":6666,"text":"renvoyez-moi toutes les organisations en « Amérique du Nord ».","label":[[24,37,"Table_name"],[43,59,"value"]]}
+{"id":6668,"text":"\"renvoyez-moi la page d'accueil de \"\"l'Université du Michigan\"\".\"","label":[[17,31,"Column_name"],[37,61,"value"]]}
+{"id":6670,"text":"\"retournez-moi le nombre de références de \"\" Rendre les systèmes de bases de données utilisables \"\" .\"","label":[[18,38,"Column_name"],[45,96,"value"]]}
+{"id":6678,"text":"renvoyez-moi le papier avec plus de 200 citations.","label":[[16,22,"Table_name"],[28,35,"comparison_operator"],[36,39,"value"],[40,49,"comparison_attr"]]}
+{"id":6680,"text":"\"De quelle année date le film \"\" The Imitation Game \"\" ?\"","label":[[11,16,"Column_name"],[25,29,"Table_name"],[25,29,"comparison_attr"],[33,51,"value"]]}
+{"id":6682,"text":"\"En quelle année a été produit le film \"\" The Imitation Game \"\"\"","label":[[11,16,"Column_name"],[34,38,"Table_name"],[34,38,"comparison_attr"],[42,60,"value"]]}
+{"id":6684,"text":"\"En quelle année est né \"\" Benedict Cumberbatch \"\" ?\"","label":[[11,16,"Column_name"],[21,23,"comparison_attr"],[27,47,"value"]]}
+{"id":6692,"text":"\"Quelle est la nationalité de l'actrice \"\" Christoph Waltz \"\" ?\"","label":[[15,26,"Column_name"],[32,39,"Table_name"],[32,39,"comparison_attr"],[43,58,"value"]]}
+{"id":6696,"text":"Retrouvez tous les films produits en 2015","label":[[19,24,"Table_name"],[25,33,"comparison_attr"],[37,41,"value"]]}
+{"id":6698,"text":"\"Retrouvez tous les acteurs nés à \"\" Téhéran \"\"\"","label":[[20,27,"Table_name"],[28,31,"comparison_attr"],[37,44,"value"]]}
+{"id":6700,"text":"Retrouvez tous les acteurs nés à Téhéran","label":[[19,26,"Table_name"],[27,30,"comparison_attr"],[33,40,"value"]]}
+{"id":6702,"text":"Quels acteurs sont nés à Téhéran","label":[[6,13,"Table_name"],[19,22,"comparison_attr"],[25,32,"value"]]}
+{"id":6704,"text":"Trouver tous les acteurs qui viennent d'Afghanistan","label":[[17,24,"Table_name"],[29,37,"comparison_attr"],[40,51,"value"]]}
+{"id":6706,"text":"Retrouvez tous les acteurs d'Afghanistan","label":[[19,26,"Table_name"],[30,40,"value"]]}
+{"id":6708,"text":"Donnez-moi le nom de tous les acteurs d'Afghanistan","label":[[14,17,"Column_name"],[30,37,"Table_name"],[30,37,"comparison_attr"],[40,51,"value"]]}
+{"id":6710,"text":"Retrouvez tous les acteurs nés en 1984","label":[[19,26,"Table_name"],[27,30,"comparison_attr"],[34,38,"value"]]}
+{"id":6712,"text":"\"Où est le lieu de naissance de \"\" Kevin Spacey \"\"\"","label":[[11,28,"Column_name"],[35,47,"value"]]}
+{"id":6714,"text":"\"Dans quelle ville est né \"\" Kevin Spacey \"\" ?\"","label":[[13,18,"Table_name"],[23,25,"Column_name"],[29,41,"value"]]}
+{"id":6720,"text":"Retrouvez tous les réalisateurs qui viennent d'Afghanistan","label":[[19,31,"Table_name"],[36,44,"comparison_attr"],[47,58,"value"]]}
+{"id":6722,"text":"Combien avons-nous de chanteurs ?","label":[[0,7,"aggregate_function"],[22,31,"Table_name"]]}
+{"id":6724,"text":"Quel est le nombre total de chanteurs ?","label":[[19,24,"aggregate_function"],[28,37,"Table_name"]]}
+{"id":6726,"text":"Combien y a-t-il de chanteurs ?","label":[[0,7,"aggregate_function"],[20,29,"Table_name"]]}
+{"id":6728,"text":"Quel est le nombre de chanteurs ?","label":[[22,31,"Table_name"]]}
+{"id":6730,"text":"Quel est l'âge moyen, minimum et maximum de tous les chanteurs français ?","label":[[11,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[22,29,"aggregate_function"],[33,40,"aggregate_function"],[53,62,"Table_name"],[63,71,"value"]]}
+{"id":6732,"text":"Quel est l'âge moyen, minimum et maximum de tous les chanteurs français ?","label":[[11,14,"aggregate_function_attr"],[15,20,"aggregate_function"],[22,29,"aggregate_function"],[33,40,"aggregate_function"],[53,62,"Table_name"],[63,71,"value"]]}
+{"id":6734,"text":"Quelle est la capacité moyenne et maximale de tous les stades ?","label":[[14,22,"aggregate_function_attr"],[23,30,"aggregate_function"],[34,42,"aggregate_function"],[55,61,"Table_name"]]}
+{"id":6736,"text":"Quelles sont les capacités moyennes et maximales de toutes les stations ?","label":[[17,26,"aggregate_function_attr"],[27,35,"aggregate_function"],[39,48,"aggregate_function"],[63,71,"Table_name"]]}
+{"id":6738,"text":"Trouvez le nombre d'animaux dont le poids est supérieur à 10.","label":[[20,27,"Table_name"],[36,41,"comparison_attr"],[46,55,"comparison_operator"],[58,60,"value"]]}
+{"id":6740,"text":"Combien d'animaux ont un poids supérieur à 10 ?","label":[[0,7,"aggregate_function"],[10,17,"Table_name"],[25,30,"comparison_attr"],[31,40,"comparison_operator"],[43,45,"value"]]}
+{"id":6742,"text":"Trouvez l'identifiant et le poids de tous les animaux dont l'âge est supérieur à 1.","label":[[10,21,"Column_name"],[28,33,"Column_name"],[46,53,"Table_name"],[61,64,"comparison_attr"],[69,78,"comparison_operator"],[81,82,"value"]]}
+{"id":6744,"text":"Quel est l'identifiant et le poids de chaque animal de compagnie âgé de plus d'un an ?","label":[[11,22,"Column_name"],[29,34,"Column_name"],[45,51,"Table_name"],[65,68,"comparison_attr"],[72,76,"comparison_operator"],[82,84,"value"]]}
+{"id":6746,"text":"Quelle est la moyenne des miles par gallon (mpg) des voitures à 4 cylindres ?","label":[[14,21,"aggregate_function"],[26,31,"aggregate_function_attr"],[53,61,"Table_name"],[64,65,"value"],[66,75,"comparison_attr"]]}
+{"id":6748,"text":"Quelle est la moyenne des miles par gallon de toutes les cartes à 4 cylindres ?","label":[[14,21,"aggregate_function"],[26,32,"aggregate_function_attr"],[57,63,"Table_name"],[66,67,"value"],[68,77,"comparison_attr"]]}
+{"id":6750,"text":"Quels sont tous les fabricants et modèles ?","label":[[20,30,"Column_name"],[34,41,"Column_name"]]}
+{"id":6752,"text":"Quels sont les fabricants et les modèles ?","label":[[15,25,"Column_name"],[33,40,"Column_name"]]}
+{"id":6754,"text":"Quel est le nombre de voitures de plus de 150 chevaux ?","label":[[22,30,"Table_name"],[34,38,"comparison_operator"],[42,45,"value"],[46,53,"comparison_attr"]]}
+{"id":6756,"text":"Quel est le nombre de voitures d'une puissance supérieure à 150 chevaux ?","label":[[22,30,"Table_name"],[37,46,"comparison_attr"],[47,57,"comparison_operator"],[60,63,"value"]]}
+{"id":6758,"text":"Combien de voitures ont plus de 4 cylindres ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"],[24,28,"comparison_operator"],[32,33,"value"],[34,43,"comparison_attr"]]}
+{"id":6760,"text":"Quel est le nombre de voitures avec plus de 4 cylindres ?","label":[[22,30,"Table_name"],[36,40,"comparison_operator"],[44,45,"value"],[46,55,"comparison_attr"]]}
+{"id":6762,"text":"Combien de voitures ont plus de 6 cylindres ?","label":[[0,7,"aggregate_function"],[11,19,"Table_name"],[24,28,"comparison_operator"],[32,33,"value"],[34,43,"comparison_attr"]]}
+{"id":6764,"text":"Quel est le nombre de voitures avec plus de 6 cylindres ?","label":[[22,30,"Table_name"],[36,40,"comparison_operator"],[44,45,"value"],[46,55,"comparison_attr"]]}
+{"id":6766,"text":"trouver le nombre minimum et maximum de produits de tous les magasins.","label":[[18,25,"aggregate_function"],[29,36,"aggregate_function"],[40,48,"aggregate_function_attr"],[61,69,"Table_name"]]}
+{"id":6768,"text":"Quel est le nombre minimum et maximum de produits dans tous les magasins ?","label":[[19,26,"aggregate_function"],[30,37,"aggregate_function"],[41,49,"aggregate_function_attr"],[64,72,"Table_name"]]}
+{"id":6770,"text":"Quel est le bonus total accordé dans toutes les évaluations ?","label":[[12,17,"aggregate_function_attr"],[18,23,"aggregate_function"],[48,60,"Table_name"]]}
+{"id":6772,"text":"Trouvez le montant total des bonus accordés dans toutes les évaluations.","label":[[11,18,"aggregate_function_attr"],[19,24,"aggregate_function"],[60,71,"Table_name"]]}
+{"id":6774,"text":"Donnez-moi toutes les informations sur l'embauche.","label":[[41,49,"Table_name"]]}
+{"id":6776,"text":"Quelles sont toutes les informations sur l'embauche?","label":[[42,51,"Table_name"]]}
+{"id":6778,"text":"Répertorier les ID de document, les noms de document et les descriptions de document pour tous les documents.","label":[[16,18,"Column_name"],[36,40,"Column_name"],[60,72,"Column_name"],[99,108,"Column_name"]]}

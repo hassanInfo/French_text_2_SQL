@@ -1,0 +1,1384 @@
+Combien de chefs de service ont plus de 56 ans ?
+SELECT count(*) FROM head WHERE age > 56
+Indiquez l'année de création, le nom et le budget de chaque département.
+SELECT creation , name , budget_in_billions FROM department
+Quels sont le budget maximum et minimum des départements ?
+SELECT max(budget_in_billions) , min(budget_in_billions) FROM department
+Quels sont les noms des chefs qui sont nés en dehors de l'État de Californie ?
+SELECT name FROM head WHERE born_state != 'California'
+Combien y a-t-il de fermes ?
+SELECT count(*) FROM farm
+Comptez le nombre de fermes.
+SELECT count(*) FROM farm
+"Quels sont les animateurs des compétitions dont le thème n'est pas ""Aliens"" ?"
+SELECT Hosts FROM farm_competition WHERE Theme != 'Aliens'
+Renvoyer les hôtes de compétitions dont le thème n'est pas Aliens ?
+SELECT Hosts FROM farm_competition WHERE Theme != 'Aliens'
+Quel est le nombre moyen de chevaux de trait des élevages de plus de 5000 chevaux au total ?
+SELECT avg(Working_Horses) FROM farm WHERE Total_Horses > 5000
+Donnez le nombre moyen de chevaux de trait dans les exploitations de plus de 5 000 chevaux au total.
+SELECT avg(Working_Horses) FROM farm WHERE Total_Horses > 5000
+Quel est le nombre maximum et minimum de vaches dans toutes les fermes.
+SELECT max(Cows) , min(Cows) FROM farm
+Renvoie le nombre maximum et minimum de vaches dans toutes les fermes.
+SELECT max(Cows) , min(Cows) FROM farm
+"Afficher le classement au recensement des villes dont le statut n'est pas ""Village""."
+"SELECT Census_Ranking FROM city WHERE Status != ""Village"""
+"Quels sont les classements au recensement des villes qui n'ont pas le statut ""Village"" ?"
+"SELECT Census_Ranking FROM city WHERE Status != ""Village"""
+Lister l'identifiant des étudiants qui ont suivi certains cours ?
+SELECT student_id FROM student_course_attendance
+Quels sont les identifiants de tous les étudiants qui ont suivi au moins un cours ?
+SELECT student_id FROM student_course_attendance
+"Trouver l'identifiant des candidats dont le code d'évaluation est ""Pass"" ?"
+"SELECT candidate_id FROM candidate_assessments WHERE asessment_outcome_code = ""Pass"""
+Quels sont les identifiants des candidats dont le code de résultat est Pass ?
+"SELECT candidate_id FROM candidate_assessments WHERE asessment_outcome_code = ""Pass"""
+Quels sont les identifiants des étudiants qui se sont inscrits au cours 301 ?
+SELECT student_id FROM student_course_attendance WHERE course_id = 301
+Quels sont les identifiants des étudiants inscrits au cours 301 ?
+SELECT student_id FROM student_course_attendance WHERE course_id = 301
+Donnez-moi les dates où la température maximale était supérieure à 85.
+SELECT date FROM weather WHERE max_temperature_f > 85
+Quelles sont les dates avec une température maximale supérieure à 85 ?
+SELECT date FROM weather WHERE max_temperature_f > 85
+Quels sont les noms des stations qui ont une latitude inférieure à 37,5 ?
+SELECT name FROM station WHERE lat < 37.5
+Quels sont les noms de toutes les stations dont la latitude est inférieure à 37,5 ?
+SELECT name FROM station WHERE lat < 37.5
+Quelle est la latitude et la longitude moyennes des stations situées dans la ville de San José ?
+"SELECT avg(lat) , avg(long) FROM station WHERE city = ""San Jose"""
+Quelle est la latitude et la longitude moyennes à San José ?
+"SELECT avg(lat) , avg(long) FROM station WHERE city = ""San Jose"""
+Quelle est la durée totale et maximale des trajets avec l'identifiant vélo 636 ?
+SELECT sum(duration) , max(duration) FROM trip WHERE bike_id = 636
+Quelle est la durée totale et maximale de tous les trajets avec le vélo id 636 ?
+SELECT sum(duration) , max(duration) FROM trip WHERE bike_id = 636
+Quand et dans quel code postal la température maximale a-t-elle atteint 80 ?
+SELECT date , zip_code FROM weather WHERE max_temperature_f >= 80
+Quels codes postaux ont une station avec une température maximale supérieure ou égale à 80 et quand a-t-elle atteint cette température ?
+SELECT date , zip_code FROM weather WHERE max_temperature_f >= 80
+Combien y a-t-il de livres ici?
+SELECT count(*) FROM book
+Quels sont les titres des livres dont l'auteur n'est pas « Elaine Lee » ?
+"SELECT Title FROM book WHERE Writer != ""Elaine Lee"""
+Quels sont le titre et les numéros des livres?
+SELECT Title , Issues FROM book
+Combien y a-t-il d'acteurs ?
+SELECT count(*) FROM actor
+Comptez le nombre d'acteurs.
+SELECT count(*) FROM actor
+Quels sont les personnages et la durée des acteurs ?
+SELECT Character , Duration FROM actor
+Renvoie les caractères et les durées pour chaque acteur.
+SELECT Character , Duration FROM actor
+Énumérez le nom des acteurs dont l'âge n'est pas de 20 ans.
+SELECT Name FROM actor WHERE Age != 20
+Comment s'appellent les acteurs qui n'ont pas 20 ans ?
+SELECT Name FROM actor WHERE Age != 20
+"Comment s'appellent les comédies musicales avec le nominé ""Bob Fosse"" ?"
+"SELECT Name FROM musical WHERE Nominee = ""Bob Fosse"""
+Renvoyez les noms des comédies musicales qui ont le candidat Bob Fosse.
+"SELECT Name FROM musical WHERE Nominee = ""Bob Fosse"""
+"Trouvez les e-mails de l'utilisateur nommé ""Mary""."
+SELECT email FROM user_profiles WHERE name = 'Mary'
+"Quel est l'identifiant de partition de l'utilisateur nommé ""Iron Man""."
+SELECT partitionid FROM user_profiles WHERE name = 'Iron Man'
+Combien y a-t-il d'utilisateurs ?
+SELECT count(*) FROM user_profiles
+Combien d'abonnés chaque utilisateur a-t-il ?
+SELECT count(*) FROM follows
+Trouver le nombre de tweets enregistrés.
+SELECT count(*) FROM tweets
+Trouvez le nom et l'e-mail des utilisateurs qui ont plus de 1000 abonnés.
+SELECT name , email FROM user_profiles WHERE followers > 1000
+Trouvez le nombre maximum et total d'abonnés de tous les utilisateurs.
+SELECT max(followers) , sum(followers) FROM user_profiles
+Trouvez les noms de toutes les entrées du catalogue.
+SELECT distinct(catalog_entry_name) FROM catalog_contents
+Quels sont tous les noms d'entrées de catalogue ?
+SELECT distinct(catalog_entry_name) FROM catalog_contents
+"Quel est le type de données d'attribut de l'attribut portant le nom ""Green"" ?"
+"SELECT attribute_data_type FROM Attribute_Definitions WHERE attribute_name = ""Green"""
+"Recherchez le type de données d'attribut pour l'attribut nommé ""Vert""."
+"SELECT attribute_data_type FROM Attribute_Definitions WHERE attribute_name = ""Green"""
+Quels sont les prix moyen et minimum (en euros) de tous les produits ?
+SELECT avg(price_in_euros) , min(price_in_euros) FROM catalog_contents
+Donnez-moi le prix moyen et minimum (en Euro) des produits.
+SELECT avg(price_in_euros) , min(price_in_euros) FROM catalog_contents
+Trouvez le nom et la capacité des produits dont le prix est supérieur à 700 (en USD).
+SELECT catalog_entry_name , capacity FROM Catalog_Contents WHERE price_in_dollars > 700
+Quel contenu de catalogue a un prix supérieur à 700 dollars ? Montrez leurs noms et capacités d'entrée de catalogue.
+SELECT catalog_entry_name , capacity FROM Catalog_Contents WHERE price_in_dollars > 700
+Combien y a-t-il de produits dans les enregistrements ?
+SELECT count(*) FROM catalog_contents
+Trouver le nombre total de contenus du catalogue.
+SELECT count(*) FROM catalog_contents
+Nommez tous les produits avec le prochain ID d'entrée supérieur à 8.
+SELECT catalog_entry_name FROM catalog_contents WHERE next_entry_id > 8
+Quels sont les noms d'entrée de catalogue des produits avec le prochain ID d'entrée supérieur à 8 ?
+SELECT catalog_entry_name FROM catalog_contents WHERE next_entry_id > 8
+Combien d'avions avons-nous ?
+SELECT count(*) FROM Aircraft
+Combien d'avions existent dans la base de données ?
+SELECT count(*) FROM Aircraft
+Combien y a-t-il d'avions ?
+SELECT count(*) FROM Aircraft
+Quel est le nombre d'avions ?
+SELECT count(*) FROM Aircraft
+Afficher le nom et la distance pour tous les avions.
+SELECT name , distance FROM Aircraft
+Quels sont les noms et les distances de tous les avions ?
+SELECT name , distance FROM Aircraft
+Afficher les identifiants pour tous les avions avec plus de 1000 de distance.
+SELECT aid FROM Aircraft WHERE distance > 1000
+Quels sont les identifiants de tous les avions qui peuvent couvrir une distance de plus de 1000 ?
+SELECT aid FROM Aircraft WHERE distance > 1000
+Quel est le nom et la distance des avions avec l'identifiant 12 ?
+SELECT name , distance FROM Aircraft WHERE aid = 12
+Quel est le nom et la distance de l'avion qui a un identifiant de 12 ?
+SELECT name , distance FROM Aircraft WHERE aid = 12
+Quelle est la distance minimale, moyenne et maximale de tous les avions.
+SELECT min(distance) , avg(distance) , max(distance) FROM Aircraft
+Renvoie les distances minimales, moyennes et maximales parcourues sur tous les avions.
+SELECT min(distance) , avg(distance) , max(distance) FROM Aircraft
+Combien d'employés avons-nous?
+SELECT count(*) FROM Employee
+Quel est le nombre d'employés ?
+SELECT count(*) FROM Employee
+Trouver le nombre total d'employés.
+SELECT count(*) FROM Employee
+Combien y a-t-il d'employés en tout ?
+SELECT count(*) FROM Employee
+Combien y a-t-il d'employés?
+SELECT count(*) FROM Employee
+Compter le nombre d'employés
+SELECT count(*) FROM Employee
+Afficher les identifiants de tous les employés avec au moins 100 000 de salaire.
+SELECT eid FROM Employee WHERE salary > 100000
+Quel est l'identifiant de chaque employé qui a au moins un salaire de 100 000 ?
+SELECT eid FROM Employee WHERE salary > 100000
+Quel est le nom et le salaire de l'employé avec l'identifiant 242518965 ?
+SELECT name , salary FROM Employee WHERE eid = 242518965
+Quel est le nom et le salaire de l'employé avec l'identifiant 242518965 ?
+SELECT name , salary FROM Employee WHERE eid = 242518965
+Quel est le salaire moyen et maximum de tous les employés.
+SELECT avg(salary) , max(salary) FROM Employee
+Quel est le salaire moyen et le plus élevé de tous les employés ?
+SELECT avg(salary) , max(salary) FROM Employee
+Montrez la carte d'identité et le salaire de Mark Young.
+SELECT eid , salary FROM Employee WHERE name = 'Mark Young'
+Quels sont l'identité et le salaire de l'employé nommé Mark Young ?
+SELECT eid , salary FROM Employee WHERE name = 'Mark Young'
+Combien de vols avons-nous ?
+SELECT count(*) FROM Flight
+Quel est le nombre de vols ?
+SELECT count(*) FROM Flight
+Afficher tous les numéros de vol de Los Angeles.
+"SELECT flno FROM Flight WHERE origin = ""Los Angeles"""
+Quels sont les numéros de tous les vols en provenance de Los Angeles ?
+"SELECT flno FROM Flight WHERE origin = ""Los Angeles"""
+Afficher les origines de tous les vols avec destination Honolulu.
+"SELECT origin FROM Flight WHERE destination = ""Honolulu"""
+Quelles sont les origines de tous les vols qui se dirigent vers Honolulu ?
+"SELECT origin FROM Flight WHERE destination = ""Honolulu"""
+Afficher le numéro de vol pour tous les vols de plus de 2 000 distances.
+SELECT flno FROM Flight WHERE distance > 2000
+Quels sont les nombres de tous les vols qui peuvent couvrir une distance de plus de 2000 ?
+SELECT flno FROM Flight WHERE distance > 2000
+Afficher l'origine et la destination pour les vols dont le prix est supérieur à 300.
+SELECT origin , destination FROM Flight WHERE price > 300
+Quelle est l'origine et la destination de tous les vols dont le prix est supérieur à 300 ?
+SELECT origin , destination FROM Flight WHERE price > 300
+Quelle est la distance moyenne et le prix moyen des vols au départ de Los Angeles.
+"SELECT avg(distance) , avg(price) FROM Flight WHERE origin = ""Los Angeles"""
+Quelle est la distance moyenne et le prix de tous les vols au départ de Los Angeles ?
+"SELECT avg(distance) , avg(price) FROM Flight WHERE origin = ""Los Angeles"""
+Afficher toutes les allergies et leurs types.
+SELECT allergy , allergytype FROM Allergy_type
+Quelles sont les allergies et leurs types ?
+SELECT allergy , allergytype FROM Allergy_type
+Quel est le type d'allergie au chat ?
+"SELECT allergytype FROM Allergy_type WHERE allergy = ""Cat"""
+Quel est le type d'allergie d'une allergie au chat?
+"SELECT allergytype FROM Allergy_type WHERE allergy = ""Cat"""
+Combien d'allergies ont le type animal ?
+"SELECT count(*) FROM Allergy_type WHERE allergytype = ""animal"""
+Combien existe-t-il d'allergies de type animal ?
+"SELECT count(*) FROM Allergy_type WHERE allergytype = ""animal"""
+Combien d'étudiants sont là?
+SELECT count(*) FROM Student
+Quel est le nombre total d'étudiants ?
+SELECT count(*) FROM Student
+Afficher le prénom et le nom de tous les élèves.
+SELECT Fname , Lname FROM Student
+Quels sont les noms complets de tous les étudiants
+SELECT Fname , Lname FROM Student
+Combien d'élèves ont 18 ans ?
+SELECT count(*) FROM Student WHERE age = 18
+Combien d'élèves ont 18 ans ?
+SELECT count(*) FROM Student WHERE age = 18
+Afficher tous les identifiants d'étudiants âgés de plus de 20 ans.
+SELECT StuID FROM Student WHERE age > 20
+Quelles sont les cartes d'étudiants pour les étudiants de plus de 20 ans ?
+SELECT StuID FROM Student WHERE age > 20
+"Dans quelle ville vit l'étudiant dont le nom de famille est ""Kim"" ?"
+"SELECT city_code FROM Student WHERE LName = ""Kim"""
+Donnez la ville dans laquelle vit l'élève dont le nom de famille est Kim.
+"SELECT city_code FROM Student WHERE LName = ""Kim"""
+Qui est le conseiller de l'étudiant avec ID 1004 ?
+SELECT Advisor FROM Student WHERE StuID = 1004
+Qui conseille l'élève 1004 ?
+SELECT Advisor FROM Student WHERE StuID = 1004
+Afficher l'âge minimum, moyen et maximum de tous les élèves.
+SELECT min(age) , avg(age) , max(age) FROM Student
+Quel est l'âge minimum, moyen et maximum de tous les élèves ?
+SELECT min(age) , avg(age) , max(age) FROM Student
+Combien d'élèves ont des allergies aux chats ?
+"SELECT count(*) FROM Has_allergy WHERE Allergy = ""Cat"""
+Combien d'élèves sont concernés par les allergies aux chats ?
+"SELECT count(*) FROM Has_allergy WHERE Allergy = ""Cat"""
+Indiquez le titre de chaque album.
+SELECT title FROM albums;
+Quels sont les titres de tous les albums ?
+SELECT title FROM albums;
+Combien de clients vivent dans la ville de Prague ?
+"SELECT count(*) FROM customers WHERE city = ""Prague"";"
+Combien de clients vivent dans la ville de Prague ?
+"SELECT count(*) FROM customers WHERE city = ""Prague"";"
+Combien d'employés vivent au Canada?
+"SELECT count(*) FROM employees WHERE country = ""Canada"";"
+Combien d'employés vivent au Canada?
+"SELECT count(*) FROM employees WHERE country = ""Canada"";"
+Répertorier tous les types de médias.
+SELECT name FROM media_types;
+Quels sont les noms de tous les types de médias ?
+SELECT name FROM media_types;
+Indiquez le nom de toutes les listes de lecture.
+SELECT name FROM playlists;
+Quels sont les noms de toutes les playlists ?
+SELECT name FROM playlists;
+Qui est le compositeur du morceau Fast As a Shark ?
+"SELECT composer FROM tracks WHERE name = ""Fast As a Shark"";"
+"Quel est le compositeur qui a créé le morceau ""Fast As a Shark"" ?"
+"SELECT composer FROM tracks WHERE name = ""Fast As a Shark"";"
+Combien de temps dure le morceau Fast As a Shark ?
+"SELECT milliseconds FROM tracks WHERE name = ""Fast As a Shark"";"
+Combien de millisecondes dure Fast As a Shark ?
+"SELECT milliseconds FROM tracks WHERE name = ""Fast As a Shark"";"
+Combien coûte le morceau Fast As a Shark ?
+"SELECT unit_price FROM tracks WHERE name = ""Fast As a Shark"";"
+"Quel est le prix unitaire du morceau ""Fast As a Shark"" ?"
+"SELECT unit_price FROM tracks WHERE name = ""Fast As a Shark"";"
+Combien y a-t-il d'éditeurs ?
+SELECT count(*) FROM editor
+Quels sont les noms et l'âge des éditeurs ?
+SELECT Name , Age FROM editor
+Dressez la liste des noms des éditeurs âgés de plus de 25 ans.
+SELECT Name FROM editor WHERE Age > 25
+Combien de comptes avons-nous ?
+SELECT count(*) FROM Accounts
+Comptez le nombre de comptes.
+SELECT count(*) FROM Accounts
+Afficher le nombre de comptes.
+SELECT count(*) FROM Accounts
+Combien y a-t-il de comptes ?
+SELECT count(*) FROM Accounts
+Combien y a-t-il de comptes au total ?
+SELECT count(*) FROM Accounts
+Comptez le nombre de comptes.
+SELECT count(*) FROM Accounts
+Afficher les identifiants, les identifiants des clients, les noms de tous les comptes.
+SELECT account_id , customer_id , account_name FROM Accounts
+Quels sont les identifiants de compte, les identifiants client et les noms de compte pour tous les comptes ?
+SELECT account_id , customer_id , account_name FROM Accounts
+Afficher les autres détails du compte pour le compte portant le nom 338.
+"SELECT other_account_details FROM Accounts WHERE account_name = ""338"""
+Quelles sont les autres informations de compte pour le compte portant le nom 338 ?
+"SELECT other_account_details FROM Accounts WHERE account_name = ""338"""
+Combien de clients avons-nous ?
+SELECT count(*) FROM Customers
+Comptez le nombre de clients.
+SELECT count(*) FROM Customers
+Afficher le nombre de clients.
+SELECT count(*) FROM Customers
+Comptez le nombre de clients.
+SELECT count(*) FROM Customers
+Trouvez le nombre total de clients.
+SELECT count(*) FROM Customers
+Combien de clients avons-nous ?
+SELECT count(*) FROM Customers
+Comptez le nombre de clients enregistrés.
+SELECT count(*) FROM Customers
+Combien y a-t-il de clients ?
+SELECT count(*) FROM Customers
+Comptez le nombre de clients.
+SELECT count(*) FROM Customers
+Combien y a-t-il de clients ?
+SELECT count(*) FROM Customers
+Renvoie le nombre total de clients distincts.
+SELECT count(*) FROM Customers
+Combien de clients au total ?
+SELECT count(*) FROM Customers
+Combien y a-t-il de clients ?
+SELECT count(*) FROM Customers
+Afficher les identifiants, les prénoms, les noms et les téléphones de tous les clients.
+SELECT customer_id , customer_first_name , customer_last_name , customer_phone FROM Customers
+Quels sont les identifiants, noms complets et téléphones de chaque client ?
+SELECT customer_id , customer_first_name , customer_last_name , customer_phone FROM Customers
+Afficher le nombre de cartes client.
+SELECT count(*) FROM Customers_cards
+Combien y a-t-il de cartes client ?
+SELECT count(*) FROM Customers_cards
+Afficher les identifiants, les identifiants client, les codes de type de carte, les numéros de carte pour toutes les cartes.
+SELECT card_id , customer_id , card_type_code , card_number FROM Customers_cards
+Quels sont les identifiants de carte, les identifiants client, les types de carte et les numéros de carte pour chaque carte client ?
+SELECT card_id , customer_id , card_type_code , card_number FROM Customers_cards
+Afficher la date de validité et la date de validité pour la carte avec le numéro de carte '4560596484842'.
+"SELECT date_valid_from , date_valid_to FROM Customers_cards WHERE card_number = ""4560596484842"""
+Quelles sont les dates de début et de fin de validité de la carte portant le numéro 4560596484842 ?
+"SELECT date_valid_from , date_valid_to FROM Customers_cards WHERE card_number = ""4560596484842"""
+Combien de cartes de débit avons-nous ?
+"SELECT count(*) FROM Customers_cards WHERE card_type_code = ""Debit"""
+Comptez le nombre de cartes client de type Débit.
+"SELECT count(*) FROM Customers_cards WHERE card_type_code = ""Debit"""
+Quel est le montant moyen et total de la transaction ?
+SELECT avg(transaction_amount) , sum(transaction_amount) FROM Financial_transactions
+Renvoie le montant moyen des transactions, ainsi que le montant total de toutes les transactions.
+SELECT avg(transaction_amount) , sum(transaction_amount) FROM Financial_transactions
+Combien de pistes avons-nous ?
+SELECT count(*) FROM track
+Comptez le nombre de pistes.
+SELECT count(*) FROM track
+Quel est le nombre minimum, maximum et moyen de places assises pour toutes les pistes.
+SELECT min(seating) , max(seating) , avg(seating) FROM track
+Renvoyez les places assises minimales, maximales et moyennes sur toutes les pistes.
+SELECT min(seating) , max(seating) , avg(seating) FROM track
+Combien y a-t-il de courses ?
+SELECT count(*) FROM race
+Comptez le nombre de courses.
+SELECT count(*) FROM race
+Combien de membres ont la carte de membre noire ?
+SELECT count(*) FROM member WHERE Membership_card = 'Black'
+Combien de membres ne vivent pas à Hartford?
+SELECT count(*) FROM member WHERE address != 'Hartford'
+Quels sont le score moyen et l'effectif moyen de tous les magasins ?
+SELECT avg(num_of_staff) , avg(score) FROM shop
+Trouvez tous les numéros de téléphone.
+SELECT customer_phone FROM available_policies
+Quels sont tous les numéros de téléphone ?
+SELECT customer_phone FROM available_policies
+"Quels sont les numéros de téléphone des clients dans le cadre du contrat ""Assurance Vie"" ?"
+"SELECT customer_phone FROM available_policies WHERE policy_type_code = ""Life Insurance"""
+"Quels sont les numéros de téléphone des clients utilisant la police avec le code ""Assurance vie"" ?"
+"SELECT customer_phone FROM available_policies WHERE policy_type_code = ""Life Insurance"""
+Trouver le montant total et moyen des règlements.
+SELECT sum(settlement_amount) , avg(settlement_amount) FROM settlements
+Renvoie la somme et la moyenne de tous les montants de règlement.
+SELECT sum(settlement_amount) , avg(settlement_amount) FROM settlements
+Combien y a-t-il de services ?
+SELECT count(*) FROM services
+Comptez le nombre total de services disponibles.
+SELECT count(*) FROM services
+Combien y a-t-il de services ?
+SELECT count(*) FROM services
+Comptez le nombre de services.
+SELECT count(*) FROM services
+Quels sont les montants de règlement maximum et minimum enregistrés ?
+SELECT max(settlement_amount) , min(settlement_amount) FROM settlements
+Trouvez le montant de règlement maximum et minimum.
+SELECT max(settlement_amount) , min(settlement_amount) FROM settlements
+Combien y a-t-il de sortes d'enzymes ?
+SELECT count(*) FROM enzyme
+Quel est le nombre total d'enzymes ?
+SELECT count(*) FROM enzyme
+Comment s'appellent les enzymes qui ne produisent pas d'hème ?
+SELECT name FROM enzyme WHERE product != 'Heme'
+"Quels sont les noms des enzymes dont le produit n'est pas ""hème"" ?"
+SELECT name FROM enzyme WHERE product != 'Heme'
+Quels sont les noms et les noms commerciaux des médicaments qui ont la valeur « Oui » dans le dossier de la FDA ?
+SELECT name , trade_name FROM medicine WHERE FDA_approved = 'Yes'
+Quels sont les noms et les noms commerciaux des médicaments approuvés par la FDA ?
+SELECT name , trade_name FROM medicine WHERE FDA_approved = 'Yes'
+Combien de médicaments ont le statut d'approbation FDA 'Non' ?
+SELECT count(*) FROM medicine WHERE FDA_approved = 'No'
+Combien de médicaments n'ont pas été approuvés par la FDA ?
+SELECT count(*) FROM medicine WHERE FDA_approved = 'No'
+Quelle est la taille moyenne des inscriptions dans les universités fondées avant 1850 ?
+SELECT avg(enrollment) FROM university WHERE founded < 1850
+Renvoie le nombre moyen d'inscriptions dans les universités fondées avant 1850.
+SELECT avg(enrollment) FROM university WHERE founded < 1850
+Quel est le nombre total et minimum d'inscriptions de toutes les écoles ?
+SELECT sum(enrollment) , min(enrollment) FROM university
+Renvoie les inscriptions totales et minimales dans toutes les écoles.
+SELECT sum(enrollment) , min(enrollment) FROM university
+Quel est le nombre maximum d'inscriptions dans toutes les écoles ?
+SELECT max(Enrollment) FROM university
+Renvoyer le maximum d'inscriptions dans toutes les écoles.
+SELECT max(Enrollment) FROM university
+Énumérez toutes les informations concernant le match de basket.
+SELECT * FROM basketball_match
+Quelles sont toutes les informations sur le match de basket?
+SELECT * FROM basketball_match
+"Combien de modèles de matériel téléphonique sont produits par la société nommée ""Nokia Corporation"" ?"
+"SELECT count(*) FROM phone WHERE Company_name = ""Nokia Corporation"";"
+Lister le nombre maximum, minimum et moyen de ko utilisés en mode écran.
+SELECT max(used_kb) , min(used_kb) , avg(used_kb) FROM screen_mode;
+Trouvez les détails pour tous les modèles de puces.
+SELECT * FROM chip_model
+Combien de modèles n'ont pas la fonction wifi ?
+SELECT count(*) FROM chip_model WHERE wifi = 'No'
+Comptez le nombre de modèles de puces qui n'ont pas de wifi.
+SELECT count(*) FROM chip_model WHERE wifi = 'No'
+Combien y a-t-il de pays au total ?
+SELECT count(*) FROM country
+Comptez le nombre de pays.
+SELECT count(*) FROM country
+Afficher le nom du pays et la capitale de tous les pays.
+SELECT Country_name , Capital FROM country
+Quels sont les noms et les capitales de chaque pays ?
+SELECT Country_name , Capital FROM country
+Afficher les joueurs et les années jouées.
+SELECT Player , Years_Played FROM player
+Qui sont les différents joueurs et combien d'années chacun a-t-il joué ?
+SELECT Player , Years_Played FROM player
+Afficher tous les noms d'équipe.
+SELECT Name FROM Team
+Comment s'appellent toutes les équipes ?
+SELECT Name FROM Team
+Combien y a-t-il de grimpeurs ?
+SELECT count(*) FROM climber
+Comptez le nombre de grimpeurs.
+SELECT count(*) FROM climber
+Énumérez les noms des grimpeurs dont le pays n'est pas la Suisse.
+"SELECT Name FROM climber WHERE Country != ""Switzerland"""
+Comment s'appellent les grimpeurs qui ne sont pas originaires de la Suisse ?
+"SELECT Name FROM climber WHERE Country != ""Switzerland"""
+Quel est le point maximum pour les grimpeurs dont le pays est le Royaume-Uni ?
+"SELECT max(Points) FROM climber WHERE Country = ""United Kingdom"""
+Renvoyez le nombre maximum de points pour les grimpeurs du Royaume-Uni.
+"SELECT max(Points) FROM climber WHERE Country = ""United Kingdom"""
+Quels sont les pays des montagnes avec une hauteur supérieure à 5000 ?
+SELECT Country FROM mountain WHERE Height > 5000
+Renvoie les pays des montagnes qui ont une hauteur supérieure à 5000.
+SELECT Country FROM mountain WHERE Height > 5000
+Combien y a-t-il de carrossiers ?
+SELECT count(*) FROM body_builder
+Quel est le score moyen des culturistes ?
+SELECT avg(Snatch) FROM body_builder
+Afficher toutes les informations sur chaque carrossier.
+SELECT * FROM body_builder
+Quel est le score minimum de snatch ?
+SELECT min(snatch) FROM body_builder
+Combien y a-t-il d'élections ?
+SELECT count(*) FROM election
+Énumérez les dates et les pourcentages de vote des élections.
+SELECT Date , Vote_Percent FROM election
+Quels sont les pourcentages de vote minimum et maximum des élections ?
+SELECT min(Vote_Percent) , max(Vote_Percent) FROM election
+Quels sont les noms et partis des représentants ?
+SELECT Name , Party FROM representative
+"Comment s'appellent les élus dont le parti n'est pas ""républicain"" ?"
+"SELECT Name FROM Representative WHERE Party != ""Republican"""
+Combien y a-t-il de réservations d'appartements au total ?
+SELECT count(*) FROM Apartment_Bookings
+Comptez le nombre total de réservations d'appartements.
+SELECT count(*) FROM Apartment_Bookings
+Afficher les dates de début et les dates de fin de toutes les réservations d'appartements.
+SELECT booking_start_date , booking_end_date FROM Apartment_Bookings
+Quelles sont la date de début et la date de fin de chaque réservation d'appartement ?
+SELECT booking_start_date , booking_end_date FROM Apartment_Bookings
+"Afficher les noms courts des bâtiments gérés par ""Emma""."
+"SELECT building_short_name FROM Apartment_Buildings WHERE building_manager = ""Emma"""
+"Quels bâtiments ""Emma"" gère-t-elle ? Donnez-moi les noms courts des bâtiments."
+"SELECT building_short_name FROM Apartment_Buildings WHERE building_manager = ""Emma"""
+"Afficher les adresses et téléphones de tous les immeubles gérés par ""Brenden""."
+"SELECT building_address , building_phone FROM Apartment_Buildings WHERE building_manager = ""Brenden"""
+Quels sont l'adresse et le numéro de téléphone des immeubles gérés par « Brenden » ?
+"SELECT building_address , building_phone FROM Apartment_Buildings WHERE building_manager = ""Brenden"""
+Quel est le nombre minimum et maximum de salles de bains de tous les appartements ?
+SELECT min(bathroom_count) , max(bathroom_count) FROM Apartments
+Donnez-moi le nombre minimum et maximum de salles de bains parmi tous les appartements.
+SELECT min(bathroom_count) , max(bathroom_count) FROM Apartments
+Quel est le nombre moyen de chambres de tous les appartements ?
+SELECT avg(bedroom_count) FROM Apartments
+Trouvez le nombre moyen de chambres de tous les appartements.
+SELECT avg(bedroom_count) FROM Apartments
+Renvoyez le numéro d'appartement et le nombre de pièces pour chaque appartement.
+SELECT apt_number , room_count FROM Apartments
+Quel est le numéro d'appartement et le nombre de chambres de chaque appartement ?
+SELECT apt_number , room_count FROM Apartments
+"Quel est le nombre moyen de pièces des appartements avec le code de type ""Studio"" ?"
+"SELECT avg(room_count) FROM Apartments WHERE apt_type_code = ""Studio"""
+"Trouvez le nombre moyen de chambres des appartements qui ont le code de type ""Studio""."
+"SELECT avg(room_count) FROM Apartments WHERE apt_type_code = ""Studio"""
+"Renvoyez les numéros d'appartement des appartements avec le code de type ""Appartement""."
+"SELECT apt_number FROM Apartments WHERE apt_type_code = ""Flat"""
+"Quels appartements ont le code de type ""Flat"" ? Donnez-moi leurs numéros d'appartement."
+"SELECT apt_number FROM Apartments WHERE apt_type_code = ""Flat"""
+Renvoyer les prénoms et noms de tous les invités
+SELECT guest_first_name , guest_last_name FROM Guests
+Quels sont les prénoms et noms de famille de tous les invités ?
+SELECT guest_first_name , guest_last_name FROM Guests
+"Renvoyez la date de naissance de tous les invités avec le code de sexe ""Homme""."
+"SELECT date_of_birth FROM Guests WHERE gender_code = ""Male"""
+"Quelles sont les dates de naissance de tous les invités dont le sexe est ""Homme"" ?"
+"SELECT date_of_birth FROM Guests WHERE gender_code = ""Male"""
+Combien de matchs ont lieu après la saison 2007 ?
+SELECT count(*) FROM game WHERE season > 2007
+Listez la saison, l'équipe à domicile, l'équipe à l'extérieur de tous les matchs.
+SELECT season , home_team , away_team FROM game
+Quels sont les matchs à domicile maximum, minimum et moyens organisés par chaque stade ?
+SELECT max(home_games) , min(home_games) , avg(home_games) FROM stadium
+Quelle est la fréquentation moyenne des stades dont le pourcentage de capacité est supérieur à 100 % ?
+SELECT average_attendance FROM stadium WHERE capacity_percentage > 100
+Quel est le poids moyen de tous les joueurs ?
+SELECT avg(weight) FROM Player
+Quelle est la taille maximale et minimale de tous les joueurs ?
+SELECT max(weight) , min(weight) FROM Player
+Combien y a-t-il de représentations ?
+SELECT count(*) FROM performance
+Quel est le nombre moyen de spectateurs pour les représentations ?
+SELECT avg(Attendance) FROM performance
+Comptez le nombre de chambres qui ne sont pas dans le bâtiment Lamberton.
+SELECT count(*) FROM classroom WHERE building != 'Lamberton'
+Combien de salles de classe ne sont pas à Lamberton ?
+SELECT count(*) FROM classroom WHERE building != 'Lamberton'
+Combien de chambres compte le bâtiment Lamberton ?
+SELECT count(*) FROM classroom WHERE building = 'Lamberton'
+Comptez le nombre de salles de classe à Lamberton.
+SELECT count(*) FROM classroom WHERE building = 'Lamberton'
+Trouver les noms de tous les instructeurs du département d'informatique
+SELECT name FROM instructor WHERE dept_name = 'Comp. Sci.'
+Quels sont les noms de tous les instructeurs de la Comp. Sci. département?
+SELECT name FROM instructor WHERE dept_name = 'Comp. Sci.'
+Combien y a-t-il de débats ?
+SELECT count(*) FROM debate
+Quels sont la date et le lieu de chaque débat ?
+SELECT Date , Venue FROM debate
+Lister les dates des débats avec un nombre d'audience supérieur à 150
+SELECT Date FROM debate WHERE Num_of_Audience > 150
+Trouvez le montant total et moyen payé dans les en-têtes de réclamation.
+SELECT sum(amount_piad) , avg(amount_piad) FROM claim_headers
+Quels sont le montant total et le montant moyen payé dans les en-têtes de réclamation ?
+SELECT sum(amount_piad) , avg(amount_piad) FROM claim_headers
+Combien y a-t-il d'étapes de traitement des réclamations au total ?
+SELECT count(*) FROM claims_processing_stages
+Trouvez le nombre d'étapes distinctes dans le traitement des réclamations.
+SELECT count(*) FROM claims_processing_stages
+"Quelle est la description de l'état de la réclamation ""Ouverte"" ?"
+"SELECT claim_status_description FROM claims_processing_stages WHERE claim_status_name = ""Open"""
+"Recherchez la description du statut de réclamation ""Ouvert""."
+"SELECT claim_status_description FROM claims_processing_stages WHERE claim_status_name = ""Open"""
+Affichez l'identifiant, la date d'ouverture du compte, le nom du compte et d'autres détails du compte pour tous les comptes.
+SELECT account_id , date_account_opened , account_name , other_account_details FROM Accounts
+Quels sont les identifiants, la date d'ouverture, le nom et d'autres détails pour tous les comptes ?
+SELECT account_id , date_account_opened , account_name , other_account_details FROM Accounts
+Combien de transactions avons-nous ?
+SELECT count(*) FROM Financial_transactions
+Comptez le nombre de transactions.
+SELECT count(*) FROM Financial_transactions
+Combien de transactions chaque compte a-t-il ? Afficher le numéro et l'identifiant du compte.
+SELECT count(*) , account_id FROM Financial_transactions
+Comptez le nombre de transactions financières correspondant à chaque identifiant de compte.
+SELECT count(*) , account_id FROM Financial_transactions
+Quel est le montant moyen, minimum, maximum et total de la transaction ?
+SELECT avg(transaction_amount) , min(transaction_amount) , max(transaction_amount) , sum(transaction_amount) FROM Financial_transactions
+Renvoie les montants moyen, minimum, maximum et total des transactions.
+SELECT avg(transaction_amount) , min(transaction_amount) , max(transaction_amount) , sum(transaction_amount) FROM Financial_transactions
+Combien de factures avons-nous ?
+SELECT count(*) FROM Invoices
+Comptez le nombre de factures.
+SELECT count(*) FROM Invoices
+Combien y a-t-il d'églises ouvertes avant 1850 ?
+SELECT count(*) FROM Church WHERE Open_Date < 1850
+Afficher le nom, la date d'ouverture et l'organisateur de toutes les églises.
+SELECT name , open_date , organized_by FROM Church
+Afficher l'âge minimum, maximum et moyen de toutes les personnes.
+SELECT min(age) , max(age) , avg(age) FROM people
+Combien d'artistes avons-nous ?
+SELECT count(*) FROM artist
+Comptez le nombre d'artistes.
+SELECT count(*) FROM artist
+Combien y a-t-il d'artistes ?
+SELECT count(*) FROM artist
+Comptez le nombre d'artistes.
+SELECT count(*) FROM artist
+Afficher tous les noms d'artistes et l'année d'adhésion qui ne sont pas des États-Unis.
+SELECT name , year_join FROM artist WHERE country != 'United States'
+"Quels sont les noms et l'année d'adhésion pour les artistes qui n'ont pas le pays ""États-Unis"" ?"
+SELECT name , year_join FROM artist WHERE country != 'United States'
+Quel est l'âge moyen et minimum de tous les artistes des États-Unis.
+SELECT avg(age) , min(age) FROM artist WHERE country = 'United States'
+Renvoie les âges moyen et minimum des artistes des États-Unis.
+SELECT avg(age) , min(age) FROM artist WHERE country = 'United States'
+"Trouvez l'identifiant de l'élément dont le titre est ""orange""."
+"SELECT i_id FROM item WHERE title = ""orange"""
+Répertorier toutes les informations dans le tableau des éléments.
+SELECT * FROM item
+Trouver le nombre d'avis.
+SELECT count(*) FROM review
+Combien y a-t-il d'utilisateurs ?
+SELECT count(*) FROM useracct
+Trouvez la note moyenne et maximale de tous les avis.
+SELECT avg(rating) , max(rating) FROM review
+Trouvez le classement le plus élevé de tous les avis.
+SELECT min(rank) FROM review
+Combien y a-t-il de joueurs ?
+SELECT count(*) FROM player
+Quels sont le sexe et la profession des joueurs ?
+SELECT Gender , Occupation FROM player
+"Indiquez le nom et la résidence des joueurs dont la profession n'est pas ""Chercheur""."
+"SELECT Player_name , residence FROM player WHERE Occupation != ""Researcher"""
+Combien y a-t-il de gymnastes ?
+SELECT count(*) FROM gymnast
+Comptez le nombre de gymnastes.
+SELECT count(*) FROM gymnast
+Quelle est la moyenne des points à la barre horizontale pour tous les gymnastes ?
+SELECT avg(Horizontal_Bar_Points) FROM gymnast
+Renvoie la moyenne des points de la barre horizontale pour tous les gymnastes.
+SELECT avg(Horizontal_Bar_Points) FROM gymnast
+Quel est le solde de contrôle total de tous les comptes ?
+SELECT sum(balance) FROM checking
+Trouvez le solde total des comptes chèques.
+SELECT sum(balance) FROM checking
+Trouvez le solde de contrôle moyen.
+SELECT avg(balance) FROM checking
+Quel est le solde moyen des comptes chèques ?
+SELECT avg(balance) FROM checking
+Combien de navigateurs principaux dont la part de marché est d'au moins 5 existent ?
+SELECT count(*) FROM browser WHERE market_share >= 5
+Répertoriez les identifiants, les noms et les parts de marché de tous les navigateurs.
+SELECT id , name , market_share FROM browser
+Quelle est la part de marché maximale, minimale et moyenne des navigateurs répertoriés ?
+SELECT max(market_share) , min(market_share) , avg(market_share) FROM browser
+Quel est l'identifiant et la part de marché du navigateur Safari ?
+SELECT id , market_share FROM browser WHERE name = 'Safari'
+Combien y a-t-il de lutteurs ?
+SELECT count(*) FROM wrestler
+Comptez le nombre de lutteurs.
+SELECT count(*) FROM wrestler
+"Quels sont les mouvements d'élimination des lutteurs dont l'équipe est ""Team Orton"" ?"
+"SELECT Elimination_Move FROM Elimination WHERE Team = ""Team Orton"""
+Restituez les films d'élimination des catcheurs de la Team Orton.
+"SELECT Elimination_Move FROM Elimination WHERE Team = ""Team Orton"""
+Montrez le règne et les jours tenus des lutteurs.
+SELECT Reign , Days_held FROM wrestler
+Quels sont les règnes et les jours de tous les lutteurs ?
+SELECT Reign , Days_held FROM wrestler
+Comment s'appellent les lutteurs qui ont moins de 100 jours ?
+SELECT Name FROM wrestler WHERE Days_held < 100
+Renvoie les noms des lutteurs avec moins de 100 jours de détention.
+SELECT Name FROM wrestler WHERE Days_held < 100
+Combien y a-t-il d'écoles ?
+SELECT count(*) FROM school
+Compter le nombre d'écoles.
+SELECT count(*) FROM school
+Combien y a-t-il d'écoles ?
+SELECT count(*) FROM school
+Compter le nombre d'écoles.
+SELECT count(*) FROM school
+Quels sont les effectifs totaux et moyens de toutes les écoles ?
+SELECT sum(enrollment) , avg(enrollment) FROM school
+Affichez les inscriptions moyennes, maximales et minimales de toutes les écoles.
+SELECT avg(enrollment) , max(enrollment) , min(enrollment) FROM school
+Combien d'enregistrements budgétaires ont un montant budgétaire inférieur au montant investi ?
+SELECT count(*) FROM budget WHERE budgeted < invested
+Combien y a-t-il de bâtiments ?
+SELECT count(*) FROM building
+Quel est le nombre moyen, maximum et minimum d'étages pour tous les bâtiments ?
+SELECT avg(floors) , max(floors) , min(floors) FROM building
+Combien de cinéma avons-nous ?
+SELECT count(*) FROM cinema
+Comptez le nombre de cinémas.
+SELECT count(*) FROM cinema
+Afficher le nom, l'année d'ouverture et la capacité de chaque cinéma.
+SELECT name , openning_year , capacity FROM cinema
+Affichez la capacité moyenne, minimale et maximale de tous les cinémas ouverts en 2011 ou après.
+SELECT avg(capacity) , min(capacity) , max(capacity) FROM cinema WHERE openning_year >= 2011
+Afficher le titre et le réalisateur de tous les films.
+SELECT title , directed_by FROM film
+Quels sont le titre et le réalisateur de chaque film ?
+SELECT title , directed_by FROM film
+Quel est le montant moyen dû pour tous les paiements ?
+SELECT avg(amount_due) FROM payments
+Quels sont le nombre maximum, minimum et moyen réservé pour les produits réservés ?
+SELECT max(booked_count) , min(booked_count) , avg(booked_count) FROM products_booked
+Combien y a-t-il de téléphones ?
+SELECT count(*) FROM phone
+Quels sont les souvenirs et les porteurs de téléphones ?
+SELECT Memory_in_G , Carrier FROM phone
+Combien y a-t-il de compagnies gazières ?
+SELECT count(*) FROM company
+Quel est le nombre total d'entreprises ?
+SELECT count(*) FROM company
+Afficher la valeur marchande minimale, maximale et moyenne pour toutes les entreprises.
+SELECT min(market_value) , max(market_value) , avg(market_value) FROM company
+Quelle est la valeur marchande minimale, maximale et moyenne de chaque entreprise ?
+SELECT min(market_value) , max(market_value) , avg(market_value) FROM company
+Combien de régions avons-nous?
+SELECT count(*) FROM region
+Comptez le nombre de régions.
+SELECT count(*) FROM region
+Combien de régions avons-nous?
+SELECT count(*) FROM region
+Comptez le nombre de régions.
+SELECT count(*) FROM region
+Afficher tous les ministres qui n'appartiennent pas au Parti du progrès.
+SELECT minister FROM party WHERE party_name != 'Progress Party'
+Quels ministres ne font pas partie du Parti du progrès ?
+SELECT minister FROM party WHERE party_name != 'Progress Party'
+Combien d'événements de fête avons-nous ?
+SELECT count(*) FROM party_events
+Comptez le nombre d'événements de fête.
+SELECT count(*) FROM party_events
+Combien y a-t-il de pilotes ?
+SELECT count(*) FROM pilot
+Quels codes de statut de document avons-nous ?
+SELECT document_status_code FROM Ref_Document_Status;
+"Quelle est la description du code d'état du document ""travail"" ?"
+"SELECT document_status_description FROM Ref_Document_Status WHERE document_status_code = ""working"";"
+Quels codes de type de document avons-nous ?
+SELECT document_type_code FROM Ref_Document_Types;
+"Quelle est la description du type de document ""Papier"" ?"
+"SELECT document_type_description FROM Ref_Document_Types WHERE document_type_code = ""Paper"";"
+Quels sont les noms des agents maritimes ?
+SELECT shipping_agent_name FROM Ref_Shipping_Agents;
+Combien d'employés avons-nous?
+SELECT count(*) FROM Employees;
+Combien d'employés avons-nous?
+SELECT count(*) FROM Employees;
+Trouvez le nombre d'employés que nous avons.
+SELECT count(*) FROM Employees;
+Répertorier tous les identifiants de documents et les dates de réception des documents.
+SELECT document_id , receipt_date FROM Documents;
+Combien de documents le code d'état a-t-il fait ?
+"SELECT count(*) FROM Documents WHERE document_status_code = ""done"";"
+Indiquez le code de type de document pour le document avec l'identifiant 2.
+SELECT document_type_code FROM Documents WHERE document_id = 2;
+Quelle est la date de réception du document avec l'identifiant 3 ?
+SELECT receipt_date FROM Documents WHERE document_id = 3;
+Quelle est la date d'envoi du document avec l'identifiant 7 ?
+SELECT mailing_date FROM Documents_Mailed WHERE document_id = 7;
+Quel est le détail du brouillon du document avec l'id 7 ?
+SELECT draft_details FROM Document_Drafts WHERE document_id = 7;
+Combien de brouillons le document avec l'ID 2 a-t-il ?
+SELECT count(*) FROM Draft_Copies WHERE document_id = 2;
+trouver tous les noms dépendants qui ont une relation de conjoint avec un employé.
+SELECT Dependent_name FROM dependent WHERE relationship = 'Spouse'
+Renvoie les noms et prénoms des employés qui gagnent plus de 30000 de salaire.
+SELECT fname , lname FROM employee WHERE salary > 30000
+Quels sont tous les identifiants des participants, le code de type et les détails ?
+SELECT Participant_ID , Participant_Type_Code , Participant_Details FROM Participants
+Combien de participants appartiennent au type 'Organisateur' ?
+SELECT count(*) FROM participants WHERE participant_type_code = 'Organizer'
+Trouver le prénom et le nom des chauffeurs de nationalité allemande ?
+"SELECT forename , surname FROM drivers WHERE nationality = ""German"""
+Quel est le prénom et le nom de tous les pilotes allemands ?
+"SELECT forename , surname FROM drivers WHERE nationality = ""German"""
+Combien y a-t-il de techniciens ?
+SELECT count(*) FROM technician
+Quel est le nombre de techniciens ?
+SELECT count(*) FROM technician
+Quelle est l'équipe et l'année de départ des techniciens ?
+SELECT Team , Starting_Year FROM technician
+Quelle est l'équipe et l'année de départ de chaque technicien ?
+SELECT Team , Starting_Year FROM technician
+Combien y a-t-il d'entrepreneurs ?
+SELECT count(*) FROM entrepreneur
+Comptez le nombre d'entrepreneurs.
+SELECT count(*) FROM entrepreneur
+Lister les entreprises et les investisseurs des entrepreneurs.
+SELECT Company , Investor FROM entrepreneur
+Quelles sont les entreprises et les investisseurs qui correspondent à chaque entrepreneur ?
+SELECT Company , Investor FROM entrepreneur
+Quelle est la somme moyenne demandée par tous les entrepreneurs ?
+SELECT avg(Money_Requested) FROM entrepreneur
+Rendre l'argent moyen demandé à tous les entrepreneurs.
+SELECT avg(Money_Requested) FROM entrepreneur
+Combien y a-t-il d'agresseurs ?
+SELECT count(*) FROM perpetrator
+Quel est le nombre moyen de personnes blessées par tous les auteurs ?
+SELECT avg(Injured) FROM perpetrator
+Indiquez le nom de tous les campus du comté de Los Angeles.
+"SELECT campus FROM campuses WHERE county = ""Los Angeles"""
+Quels campus sont situés dans le comté de Los Angeles ?
+"SELECT campus FROM campuses WHERE county = ""Los Angeles"""
+Dressez la liste des campus du comté de Los Angeles.
+"SELECT campus FROM campuses WHERE county = ""Los Angeles"""
+Quels campus se trouvent dans le comté de Los Angeles ?
+"SELECT campus FROM campuses WHERE county = ""Los Angeles"""
+Combien y a-t-il de campus dans le comté de Los Angeles ?
+"SELECT count(*) FROM campuses WHERE county = ""Los Angeles"""
+Combien de campus existent dans le comté de LA ?
+"SELECT count(*) FROM campuses WHERE county = ""Los Angeles"""
+Combien y a-t-il de campus CSU ?
+SELECT count(*) FROM campuses
+Quel est le nombre total de campus ?
+SELECT count(*) FROM campuses
+Combien y a-t-il de candidats ?
+SELECT count(*) FROM candidate
+Comptez le nombre de candidats.
+SELECT count(*) FROM candidate
+trouver le pourcentage de soutien le plus élevé, le taux de considération le plus bas et le taux d'opposition de tous les candidats.
+SELECT max(support_rate) , min(consider_rate) , min(oppose_rate) FROM candidate
+Renvoyer le taux de soutien maximal, le taux de considération minimal et le taux d'opposition minimal pour tous les candidats ?
+SELECT max(support_rate) , min(consider_rate) , min(oppose_rate) FROM candidate
+Liste toutes les informations sur toutes les personnes.
+SELECT * FROM people
+Quelles sont toutes les informations sur toutes les personnes ?
+SELECT * FROM people
+Retrouvez les titres de tous les films réalisés par steven spielberg.
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+Comment s'appellent tous les films réalisés par Steven Spielberg ?
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+Qui est le réalisateur du film Avatar ?
+SELECT director FROM Movie WHERE title = 'Avatar'
+Qui a réalisé Avatar ?
+SELECT director FROM Movie WHERE title = 'Avatar'
+Combien d'examinateurs répertoriés ?
+SELECT count(*) FROM Reviewer
+Combien y a-t-il d'examinateurs ?
+SELECT count(*) FROM Reviewer
+Quel est l'identifiant de l'examinateur de Daniel Lewis ?
+"SELECT rID FROM Reviewer WHERE name = ""Daniel Lewis"""
+Quel est l'identifiant du critique nommé Daniel Lewis ?
+"SELECT rID FROM Reviewer WHERE name = ""Daniel Lewis"""
+Quel est le nombre total d'évaluations qui ont plus de 3 étoiles ?
+SELECT count(*) FROM Rating WHERE stars > 3
+Combien de classements de films ont plus de 3 étoiles ?
+SELECT count(*) FROM Rating WHERE stars > 3
+Quelle est l'étoile la plus basse et la plus élevée ?
+SELECT max(stars) , min(stars) FROM Rating
+Quel est le nombre maximum et minimum d'étoiles qu'une note peut recevoir ?
+SELECT max(stars) , min(stars) FROM Rating
+Trouvez les identifiants des critiques qui n'ont pas seulement donné 4 étoiles.
+SELECT rID FROM Rating WHERE stars != 4
+Quels sont les identifiants de tous les commentateurs qui n'ont pas donné 4 étoiles au moins une fois ?
+SELECT rID FROM Rating WHERE stars != 4
+Combien y a-t-il de comtés ?
+SELECT count(*) FROM county_public_safety
+Comptez le nombre de pays.
+SELECT count(*) FROM county_public_safety
+Quels sont les taux de criminalité minimum et maximum des comtés ?
+SELECT min(Crime_rate) , max(Crime_rate) FROM county_public_safety
+Renvoie les taux de criminalité minimum et maximum dans tous les comtés.
+SELECT min(Crime_rate) , max(Crime_rate) FROM county_public_safety
+Quel est le pourcentage d'hispaniques dans les villes où le pourcentage de noirs est supérieur à 10 ?
+SELECT Hispanic FROM city WHERE Black > 10
+Renvoie le pourcentage d'hispaniques pour les villes dans lesquelles le pourcentage de noirs est supérieur à 10.
+SELECT Hispanic FROM city WHERE Black > 10
+Combien y a-t-il de lits king-size ?
+SELECT sum(beds) FROM Rooms WHERE bedtype = 'King';
+Trouvez le nombre total de lits King disponibles.
+SELECT sum(beds) FROM Rooms WHERE bedtype = 'King';
+Quel est le décor de la chambre Recluse et défi ?
+"SELECT decor FROM Rooms WHERE roomName = ""Recluse and defiance"";"
+"Restituez le décor de la pièce nommée ""Recluse et défiance""."
+"SELECT decor FROM Rooms WHERE roomName = ""Recluse and defiance"";"
+Quel est le nombre total de personnes qui pourraient séjourner dans les chambres modernes de cette auberge ?
+SELECT sum(maxOccupancy) FROM Rooms WHERE decor = 'modern';
+Combien de personnes au total peuvent séjourner dans les chambres modernes de cette auberge ?
+SELECT sum(maxOccupancy) FROM Rooms WHERE decor = 'modern';
+Combien y a-t-il de chambres ?
+SELECT count(*) FROM Rooms;
+Quel est le nombre total de chambres disponibles dans cette auberge ?
+SELECT count(*) FROM Rooms;
+Trouver le nombre de chambres avec un lit king.
+"SELECT count(*) FROM Rooms WHERE bedType = ""King"";"
+Combien de chambres disposent d'un lit king-size ?
+"SELECT count(*) FROM Rooms WHERE bedType = ""King"";"
+Indiquez le type de lit et le nom de toutes les chambres traditionnelles.
+"SELECT roomName , bedType FROM Rooms WHERE decor = ""traditional"";"
+Quels sont le type de lit et le nom de toutes les chambres à la décoration traditionnelle ?
+"SELECT roomName , bedType FROM Rooms WHERE decor = ""traditional"";"
+Énumérez les numéros d'identification fiscale du conseil et leurs références croisées cmi associées de toutes les amendes de stationnement.
+SELECT council_tax_id , cmi_cross_ref_id FROM parking_fines
+Combien de taxes d'habitation sont perçues pour les impayés de loyer ?
+SELECT count(*) FROM rent_arrears
+Combien y a-t-il de fêtes ?
+SELECT count(*) FROM party
+Comptez le nombre de fêtes.
+SELECT count(*) FROM party
+Quel est le nombre moyen d'hôtes pour les fêtes ?
+SELECT avg(Number_of_hosts) FROM party
+Calculez le nombre moyen d'hôtes pour les fêtes.
+SELECT avg(Number_of_hosts) FROM party
+Afficher les noms de toutes les régions à l'exception du Danemark.
+SELECT region_name FROM region WHERE region_name != 'Denmark'
+Renvoie les noms de toutes les régions autres que le Danemark.
+SELECT region_name FROM region WHERE region_name != 'Denmark'
+Combien de tempêtes ont enregistré des décès ?
+SELECT count(*) FROM storm WHERE Number_Deaths > 0
+Comptez le nombre de tempêtes dans lesquelles au moins 1 personne est morte.
+SELECT count(*) FROM storm WHERE Number_Deaths > 0
+Nom de la liste, dates actives et nombre de décès pour toutes les tempêtes avec au moins 1 décès.
+SELECT name , dates_active , number_deaths FROM storm WHERE number_deaths >= 1
+Quels sont les noms, les dates actives et le nombre de décès pour les tempêtes qui ont fait 1 mort ou plus ?
+SELECT name , dates_active , number_deaths FROM storm WHERE number_deaths >= 1
+Affiche les dégâts moyens et maximaux pour toutes les tempêtes avec une vitesse maximale supérieure à 1000.
+SELECT avg(damage_millions_USD) , max(damage_millions_USD) FROM storm WHERE max_speed > 1000
+Quels sont les dommages moyens et maximaux en millions pour les tempêtes ayant une vitesse maximale supérieure à 1 000 ?
+SELECT avg(damage_millions_USD) , max(damage_millions_USD) FROM storm WHERE max_speed > 1000
+Combien y a-t-il de comtés au total ?
+SELECT count(*) FROM county
+Comptez le nombre total de comtés.
+SELECT count(*) FROM county
+Afficher le nom du comté et la population de tous les comtés.
+SELECT County_name , Population FROM county
+Quels sont le nom et la population de chaque comté ?
+SELECT County_name , Population FROM county
+Afficher la population moyenne de tous les comtés.
+SELECT avg(Population) FROM county
+En moyenne, quelle est la population des comtés ?
+SELECT avg(Population) FROM county
+Renvoie la population maximale et minimale parmi tous les comtés.
+SELECT max(Population) , min(Population) FROM county
+Quelle est la population maximale et minimale des comtés ?
+SELECT max(Population) , min(Population) FROM county
+"Montrez le code postal du comté avec le nom ""Howard""."
+"SELECT Zip_code FROM county WHERE County_name = ""Howard"""
+"Quel est le code postal du comté nommé ""Howard"" ?"
+"SELECT Zip_code FROM county WHERE County_name = ""Howard"""
+Montrez le délégué du district 1 en élection.
+SELECT Delegate FROM election WHERE District = 1
+Qui est le délégué du district 1 aux élections ?
+SELECT Delegate FROM election WHERE District = 1
+Afficher les informations sur les délégués et le comité des élections.
+SELECT Delegate , Committee FROM election
+Quelles sont les informations sur les délégués et les comités pour chaque dossier d'élection ?
+SELECT Delegate , Committee FROM election
+Montrez le lieutenant-gouverneur et le contrôleur du parti démocrate.
+"SELECT Lieutenant_Governor , Comptroller FROM party WHERE Party = ""Democratic"""
+Qui sont le lieutenant-gouverneur et le contrôleur du parti démocrate?
+"SELECT Lieutenant_Governor , Comptroller FROM party WHERE Party = ""Democratic"""
+Afficher toutes les informations sur l'élection.
+SELECT * FROM election
+Renvoyez toutes les informations pour chaque enregistrement d'élection.
+SELECT * FROM election
+Combien y a-t-il de journalistes ?
+SELECT count(*) FROM journalist
+Quels sont les nationalités et les âges des journalistes ?
+SELECT Nationality , Age FROM journalist
+Quel est le nombre moyen d'années passées à travailler comme journaliste ?
+SELECT avg(Years_working) FROM journalist
+quelles sont les fréquentations moyennes et maximales de tous les événements ?
+SELECT avg(Event_Attendance) , max(Event_Attendance) FROM event
+Montrez-moi tous les restaurants.
+SELECT ResName FROM Restaurant;
+Quelle est l'adresse du restaurant Subway ?
+"SELECT Address FROM Restaurant WHERE ResName = ""Subway"";"
+Quelle est la note du restaurant Subway ?
+"SELECT Rating FROM Restaurant WHERE ResName = ""Subway"";"
+Répertorier tous les types de restaurants.
+SELECT ResTypeName FROM Restaurant_Type;
+Quelle est la description du type de restaurant Sandwich ?
+"SELECT ResTypeDescription FROM Restaurant_Type WHERE ResTypeName = ""Sandwich"";"
+Énumérez tous les prénoms et noms de famille des étudiants qui se sont spécialisés en 600.
+SELECT Fname , Lname FROM Student WHERE Major = 600;
+Le conseiller 1121 a combien d'étudiants ?
+SELECT count(*) FROM Student WHERE Advisor = 1121;
+Trouvez les identifiants des commandes dont le statut est 'Succès'.
+SELECT actual_order_id FROM actual_orders WHERE order_status_code = 'Success'
+Listez les noms et e-mails des clients qui ont payé par carte Visa.
+SELECT customer_email , customer_name FROM customers WHERE payment_method = 'Visa'
+Combien y a-t-il d'auteurs ?
+SELECT count(*) FROM authors
+Comptez le nombre d'auteurs.
+SELECT count(*) FROM authors
+Combien y a-t-il d'établissements ?
+SELECT count(*) FROM inst
+Comptez le nombre d'établissements.
+SELECT count(*) FROM inst
+Combien d'articles sont publiés au total ?
+SELECT count(*) FROM papers
+Comptez le nombre total de papiers.
+SELECT count(*) FROM papers
+"Quel est le prénom de l'auteur dont le nom est ""Ueno"" ?"
+"SELECT fname FROM authors WHERE lname = ""Ueno"""
+"Quels auteurs portent le nom de famille ""Ueno"" ? Listez leurs prénoms."
+"SELECT fname FROM authors WHERE lname = ""Ueno"""
+"Trouver le nom de famille de l'auteur avec le prénom ""Amal""."
+"SELECT lname FROM authors WHERE fname = ""Amal"""
+"Quels auteurs ont le prénom ""Amal"" ? Énumérez leurs noms de famille."
+"SELECT lname FROM authors WHERE fname = ""Amal"""
+Quel est le numéro de téléphone et le code postal de l'adresse 1031 Daugavpils Parkway?
+SELECT phone , postal_code FROM address WHERE address = '1031 Daugavpils Parkway'
+Donnez le téléphone et le code postal correspondant à l'adresse '1031 Daugavpils Parkway'.
+SELECT phone , postal_code FROM address WHERE address = '1031 Daugavpils Parkway'
+Combien y a-t-il d'adresses dans le district de Californie ?
+SELECT count(*) FROM address WHERE district = 'California'
+Comptez le nombre d'adresses dans le district de Californie.
+SELECT count(*) FROM address WHERE district = 'California'
+Combien de clients ont une valeur active de 1 ?
+SELECT count(*) FROM customer WHERE active = '1'
+Comptez le nombre de clients actifs.
+SELECT count(*) FROM customer WHERE active = '1'
+Quel est le montant total de tous les paiements ?
+SELECT sum(amount) FROM payment
+Renvoyez la somme de tous les montants de paiement.
+SELECT sum(amount) FROM payment
+Combien y a-t-il de magasins ?
+SELECT count(*) FROM store
+Comptez le nombre de magasins.
+SELECT count(*) FROM store
+Combien d'articles en inventaire le magasin 1 a-t-il ?
+SELECT count(*) FROM inventory WHERE store_id = 1
+Comptez le nombre d'articles que le magasin 1 a en stock.
+SELECT count(*) FROM inventory WHERE store_id = 1
+Combien y a-t-il d'agences bancaires ?
+SELECT count(*) FROM bank
+Comptez le nombre d'agences bancaires.
+SELECT count(*) FROM bank
+Combien y a-t-il de clients ?
+SELECT sum(no_of_customers) FROM bank
+Quel est le nombre total de clients dans toutes les banques ?
+SELECT sum(no_of_customers) FROM bank
+Trouvez le nombre de clients dans les banques à New York.
+SELECT sum(no_of_customers) FROM bank WHERE city = 'New York City'
+Quel est le nombre total de clients qui utilisent les banques à New York ?
+SELECT sum(no_of_customers) FROM bank WHERE city = 'New York City'
+Trouvez le nombre moyen de clients dans toutes les banques de l'état de l'Utah.
+SELECT avg(no_of_customers) FROM bank WHERE state = 'Utah'
+Quel est le nombre moyen de clients dans les banques de l'État de l'Utah ?
+SELECT avg(no_of_customers) FROM bank WHERE state = 'Utah'
+Trouvez le nombre moyen de clients dans toutes les banques.
+SELECT avg(no_of_customers) FROM bank
+Quel est le nombre moyen de clients bancaires ?
+SELECT avg(no_of_customers) FROM bank
+Trouvez la ville et l'état de la succursale bancaire nommée Morningside.
+SELECT city , state FROM bank WHERE bname = 'morningside'
+Dans quelle ville et quel état se trouve la banque qui porte le nom de Morningside ?
+SELECT city , state FROM bank WHERE bname = 'morningside'
+Trouvez les noms des succursales des banques dans l'État de New York.
+SELECT bname FROM bank WHERE state = 'New York'
+Quels sont les noms des banques dans l'état de New York ?
+SELECT bname FROM bank WHERE state = 'New York'
+Trouvez l'état, le type de compte et la cote de crédit du client dont le nombre de prêt est 0.
+SELECT state , acc_type , credit_score FROM customer WHERE no_of_loans = 0
+Quels sont les états, les types de compte et les cotes de crédit des clients qui n'ont aucun prêt ?
+SELECT state , acc_type , credit_score FROM customer WHERE no_of_loans = 0
+Combien y a-t-il de notes d'évaluation au total ?
+SELECT count(*) FROM ASSESSMENT_NOTES
+Quelles sont les dates des notes d'évaluation?
+SELECT date_of_notes FROM Assessment_Notes
+Renvoyez tous les résumés de détention.
+SELECT detention_summary FROM Detention
+Trouvez le loyer mensuel maximum et minimum pour toutes les adresses étudiantes.
+SELECT max(monthly_rental) , min(monthly_rental) FROM Student_Addresses
+Répertoriez l'identifiant de l'actif, les détails, la marque et le modèle de chaque actif.
+SELECT asset_id , asset_details , asset_make , asset_model FROM Assets
+énumérer les autorités locales et les services fournis par toutes les stations.
+SELECT local_authority , services FROM station
+montrent la basse température la plus basse et la vitesse du vent la plus élevée en miles par heure.
+SELECT min(low_temperature) , max(wind_speed_mph) FROM weekly_weather
+Quel est le code de l'école à laquelle appartient le service de comptabilité ?
+"SELECT school_code FROM department WHERE dept_name = ""Accounting"""
+Quel est le code scolaire du service comptabilité ?
+"SELECT school_code FROM department WHERE dept_name = ""Accounting"""
+quelle est l'adresse du département d'histoire?
+SELECT dept_address FROM department WHERE dept_name = 'History'
+Où est le département d'histoire ?
+SELECT dept_address FROM department WHERE dept_name = 'History'
+Combien y a-t-il de clubs ?
+SELECT count(*) FROM club
+Quel est le nombre total de clubs ?
+SELECT count(*) FROM club
+Combien y a-t-il de clubs ?
+SELECT count(*) FROM club
+Comptez le nombre total de clubs.
+SELECT count(*) FROM club
+Quel est le nombre moyen de médailles d'or pour les clubs ?
+SELECT avg(Gold) FROM club_rank
+Quel est le nombre moyen de médailles d'or pour un club ?
+SELECT avg(Gold) FROM club_rank
+Quels sont les types et pays de compétitions ?
+SELECT Competition_type , Country FROM competition
+Quels sont les types de chaque concours et dans quels pays sont-ils situés ?
+SELECT Competition_type , Country FROM competition
+Quel est le nombre maximum et minimum de médailles d'argent pour les clubs.
+SELECT max(Silver) , min(Silver) FROM club_rank
+Quel est le nombre maximum et minimum de médailles d'argent pour tous les clubs ?
+SELECT max(Silver) , min(Silver) FROM club_rank
+Combien de clubs ont moins de 10 médailles au total ?
+SELECT count(*) FROM club_rank WHERE Total < 10
+Quel est le nombre total de clubs qui ont moins de 10 médailles au total ?
+SELECT count(*) FROM club_rank WHERE Total < 10
+Afficher le total des points de tous les joueurs.
+SELECT sum(Points) FROM player
+Quel est le nombre total de points pour tous les joueurs ?
+SELECT sum(Points) FROM player
+Combien y a-t-il de composants de meubles au total ?
+SELECT sum(num_of_component) FROM furniture
+Trouvez les quantités et les noms des composants de tous les meubles qui ont plus de 10 composants.
+SELECT Num_of_Component , name FROM furniture WHERE Num_of_Component > 10
+Trouvez le nombre moyen d'usines pour les fabricants qui ont plus de 20 magasins.
+SELECT avg(Num_of_Factories) FROM manufacturer WHERE num_of_shops > 20
+quel est le nombre moyen d'usines et le nombre maximum de magasins pour les fabricants qui ont ouvert avant 1990.
+SELECT max(num_of_shops) , avg(Num_of_Factories) FROM manufacturer WHERE open_year < 1990
+Indiquez le nom complet (nom et prénom) et le salaire des employés qui gagnent moins de 6000.
+SELECT first_name , last_name , salary FROM employees WHERE salary < 6000
+Quels sont les noms complets et les salaires des employés gagnant moins de 6 000 ?
+SELECT first_name , last_name , salary FROM employees WHERE salary < 6000
+"Affichez le prénom et le numéro de service de tous les employés dont le nom de famille est ""McEwen""."
+SELECT first_name , department_id FROM employees WHERE last_name = 'McEwen'
+Quels sont les prénoms et numéros de département des employés dont le nom de famille est McEwen ?
+SELECT first_name , department_id FROM employees WHERE last_name = 'McEwen'
+Renvoyez toutes les informations pour tous les employés sans aucun numéro de département.
+"SELECT * FROM employees WHERE department_id = ""null"""
+Que sont tous les employés sans numéro de service ?
+"SELECT * FROM employees WHERE department_id = ""null"""
+Affichez toutes les informations sur le département Marketing.
+SELECT * FROM departments WHERE department_name = 'Marketing'
+Quelles sont toutes les informations sur le département Marketing ?
+SELECT * FROM departments WHERE department_name = 'Marketing'
+afficher toutes les informations sur le département Marketing.
+SELECT * FROM departments WHERE department_name = 'Marketing'
+Quelles sont toutes les informations sur le département Marketing ?
+SELECT * FROM departments WHERE department_name = 'Marketing'
+Quels sont le nom complet (nom et prénom) et le salaire de tous les employés qui n'ont aucune valeur pour la commission ?
+"SELECT first_name , last_name , salary FROM employees WHERE commission_pct = ""null"""
+Renvoyez les noms complets et les salaires des employés avec des commissions nulles.
+"SELECT first_name , last_name , salary FROM employees WHERE commission_pct = ""null"""
+Trouvez le salaire et le numéro de gestionnaire des employés qui travaillent sous un gestionnaire.
+"SELECT salary , manager_id FROM employees WHERE manager_id != ""null"""
+Quels sont les salaires et les identifiants de manager pour les employés qui ont des managers ?
+"SELECT salary , manager_id FROM employees WHERE manager_id != ""null"""
+afficher tous les détails de la table Employés pour les employés qui ont été embauchés avant le 2002-06-21.
+SELECT * FROM employees WHERE hire_date < '2002-06-21'
+Quelles sont toutes les informations sur les employés embauchés avant le 21 juin 2002 ?
+SELECT * FROM employees WHERE hire_date < '2002-06-21'
+afficher les employés qui ont rejoint après le 7 septembre 1987.
+SELECT * FROM employees WHERE hire_date > '1987-09-07'
+Quels employés ont été embauchés après le 7 septembre 1987 ?
+SELECT * FROM employees WHERE hire_date > '1987-09-07'
+afficher l'intitulé des postes dont le salaire minimum est supérieur à 9000.
+SELECT job_title FROM jobs WHERE min_salary > 9000
+Quels intitulés de poste correspondent aux emplois dont le salaire est supérieur à 9 000 ?
+SELECT job_title FROM jobs WHERE min_salary > 9000
+Trouvez les noms de toutes les chansons anglaises.
+"SELECT song_name FROM song WHERE languages = ""english"""
+Quels sont les noms de toutes les chansons en anglais ?
+"SELECT song_name FROM song WHERE languages = ""english"""
+Quels sont les identifiants des chansons dont le format est mp3.
+"SELECT f_id FROM files WHERE formats = ""mp3"""
+Quels sont les identifiants de tous les fichiers au format mp3 ?
+"SELECT f_id FROM files WHERE formats = ""mp3"""
+Combien d'artistes viennent du Bangladesh ?
+"SELECT count(*) FROM artist WHERE country = ""Bangladesh"""
+Combien d'artistes bangladais sont répertoriés ?
+"SELECT count(*) FROM artist WHERE country = ""Bangladesh"""
+Quelles sont la note moyenne et la résolution des chansons en bengali ?
+"SELECT avg(rating) , avg(resolution) FROM song WHERE languages = ""bangla"""
+Quelle est la note moyenne et la résolution de toutes les chansons bangla ?
+"SELECT avg(rating) , avg(resolution) FROM song WHERE languages = ""bangla"""
+Trouvez le prénom et le nom de tous les joueurs dont l'enregistrement de décès est vide.
+SELECT name_first , name_last FROM player WHERE death_year = '';
+Quels sont le prénom et le nom des joueurs dont la fiche de décès est vide ?
+SELECT name_first , name_last FROM player WHERE death_year = '';
+Combien y a-t-il de parcs dans la ville d'Atlanta ?
+SELECT count(*) FROM park WHERE city = 'Atlanta';
+Combien de parcs compte la ville d'Atlanta ?
+SELECT count(*) FROM park WHERE city = 'Atlanta';
+Combien d'objectifs d'appareil photo ont une distance focale supérieure à 15 mm ?
+SELECT count(*) FROM camera_lens WHERE focal_length_mm > 15
+Indiquez l'identifiant, le jeu de couleurs et le nom de toutes les photos.
+SELECT id , color , name FROM photos
+Quelle est la hauteur maximale et moyenne des montagnes ?
+SELECT max(height) , avg(height) FROM mountain
+Quelle est la proéminence moyenne des montagnes dans le pays 'Maroc' ?
+SELECT avg(prominence) FROM mountain WHERE country = 'Morocco'
+"Quels sont le nom, la hauteur et la proéminence des montagnes qui n'appartiennent pas à la chaîne ""Aberdare Range"" ?"
+SELECT name , height , prominence FROM mountain WHERE range != 'Aberdare Range'
+combien y a-t-il de programmes ?
+SELECT count(*) FROM program
+Comptez le nombre de programmes.
+SELECT count(*) FROM program
+trouver les noms de programmes dont l'origine n'est pas à Pékin.
+SELECT name FROM program WHERE origin != 'Beijing'
+"Quels programmes ne sont pas originaires de ""Pékin"" ? Donnez-moi les noms des programmes."
+SELECT name FROM program WHERE origin != 'Beijing'
+"Quelles sont les adresses des auteurs de cours ou des tuteurs avec le nom personnel ""Cathrine"""
+"SELECT address_line_1 FROM Course_Authors_and_Tutors WHERE personal_name = ""Cathrine"""
+"Renvoyez les adresses des auteurs de cours ou tuteurs dont le nom personnel est ""Cathrine""."
+"SELECT address_line_1 FROM Course_Authors_and_Tutors WHERE personal_name = ""Cathrine"""
+Indiquez les adresses de tous les auteurs ou tuteurs du cours.
+SELECT address_line_1 FROM Course_Authors_and_Tutors
+Quelle est l'adresse de chaque auteur ou tuteur de cours ?
+SELECT address_line_1 FROM Course_Authors_and_Tutors
+Dressez la liste de tous les noms de connexion et noms de famille de l'auteur du cours et des tuteurs.
+SELECT login_name , family_name FROM Course_Authors_and_Tutors
+Quels sont les noms de connexion et les noms de famille de l'auteur du cours et des tuteurs ?
+SELECT login_name , family_name FROM Course_Authors_and_Tutors
+Indiquez toutes les dates d'inscription et d'achèvement des étudiants.
+SELECT date_of_enrolment , date_of_completion FROM Student_Course_Enrolment
+Quelles sont toutes les dates d'inscription et d'achèvement enregistrées ?
+SELECT date_of_enrolment , date_of_completion FROM Student_Course_Enrolment
+À combien de cours distincts les étudiants sont-ils inscrits?
+SELECT count(course_id) FROM Student_Course_Enrolment
+Trouvez le nombre de cours distincts qui ont des étudiants inscrits.
+SELECT count(course_id) FROM Student_Course_Enrolment
+"Retrouvez les dates des tests passés avec le résultat ""Pass""."
+"SELECT date_test_taken FROM Student_Tests_Taken WHERE test_result = ""Pass"""
+"Quels tests ont des résultats ""réussis"" ? Indiquez les dates auxquelles les tests ont été passés."
+"SELECT date_test_taken FROM Student_Tests_Taken WHERE test_result = ""Pass"""
+"Combien de tests ont le résultat ""Échec"" ?"
+"SELECT count(*) FROM Student_Tests_Taken WHERE test_result = ""Fail"""
+"Comptez le nombre de tests avec le résultat ""Fail""."
+"SELECT count(*) FROM Student_Tests_Taken WHERE test_result = ""Fail"""
+"Quels sont les noms de connexion des étudiants dont le nom de famille est ""Ward"" ?"
+"SELECT login_name FROM Students WHERE family_name = ""Ward"""
+"Renvoie les noms de connexion des étudiants dont le nom de famille est ""Ward""."
+"SELECT login_name FROM Students WHERE family_name = ""Ward"""
+Quel est le montant total des règlements effectués pour tous les règlements ?
+SELECT sum(Amount_Settled) FROM Settlements
+Calculez le montant total du règlement pour tous les règlements.
+SELECT sum(Amount_Settled) FROM Settlements
+Quelles sont les dates de réclamation et les dates de règlement de tous les règlements ?
+SELECT Date_Claim_Made , Date_Claim_Settled FROM Settlements
+Dites-moi la date de réclamation et la date de règlement pour chaque cas de règlement.
+SELECT Date_Claim_Made , Date_Claim_Settled FROM Settlements
+Quel est le montant total du paiement ?
+SELECT sum(Amount_Payment) FROM Payments
+Calculez le montant total du paiement traité.
+SELECT sum(Amount_Payment) FROM Payments
+Combien y a-t-il de colonies au total ?
+SELECT count(*) FROM Settlements
+Comptez le nombre total de règlements effectués.
+SELECT count(*) FROM Settlements
+Quels paiements ont été traités avec Visa ? Indiquez l'identifiant de paiement, la date et le montant.
+SELECT Payment_ID , Date_Payment_Made , Amount_Payment FROM Payments WHERE Payment_Method_Code = 'Visa'
+Donnez-moi l'identifiant de paiement, la date et le montant de tous les paiements traités avec Visa.
+SELECT Payment_ID , Date_Payment_Made , Amount_Payment FROM Payments WHERE Payment_Method_Code = 'Visa'
+Trouver le montant total réclamé de toutes les réclamations.
+SELECT sum(Amount_Claimed) FROM Claims
+Quel est le montant total réclamé pour toutes les réclamations ?
+SELECT sum(Amount_Claimed) FROM Claims
+Combien de patients séjournent dans la chambre 112 ?
+SELECT count(patient) FROM stay WHERE room = 112
+Comptez le nombre de patients qui ont séjourné dans la chambre 112.
+SELECT count(patient) FROM stay WHERE room = 112
+Répertoriez les identifiants des employés des médecins ainsi que les identifiants de leurs principaux départements d'affiliation.
+SELECT physician , department FROM affiliated_with WHERE primaryaffiliation = 1
+Quels sont l'identifiant d'employé et l'identifiant de service de chaque médecin principalement affilié.
+SELECT physician , department FROM affiliated_with WHERE primaryaffiliation = 1
+Combien y a-t-il de rendez-vous ?
+SELECT count(*) FROM appointment
+Comptez le nombre de rendez-vous pris au total.
+SELECT count(*) FROM appointment
+Combien y a-t-il de navires ?
+SELECT count(*) FROM ship
+Quel est le nombre de navires ?
+SELECT count(*) FROM ship
+combien y a-t-il de bateaux ?
+SELECT count(*) FROM ship
+Comptez le nombre de navires.
+SELECT count(*) FROM ship
+"Indiquez le nom des navires dont la nationalité n'est pas ""États-Unis""."
+"SELECT Name FROM ship WHERE Nationality != ""United States"""
+Quels sont les noms des navires qui ne viennent pas des États-Unis ?
+"SELECT Name FROM ship WHERE Nationality != ""United States"""
+Trouver le nombre d'élèves au total.
+SELECT count(*) FROM list
+Combien d'étudiants sont là?
+SELECT count(*) FROM list
+Trouvez les noms de famille des étudiants qui étudient dans la salle 111.
+SELECT lastname FROM list WHERE classroom = 111
+Quels sont les noms de famille des élèves de la chambre 111 ?
+SELECT lastname FROM list WHERE classroom = 111
+Trouvez les prénoms des étudiants qui étudient dans la salle 108.
+SELECT firstname FROM list WHERE classroom = 108
+Quels sont les prénoms des élèves de la chambre 108 ?
+SELECT firstname FROM list WHERE classroom = 108
+Trouvez les prénoms de tous les professeurs qui enseignent dans la classe 110.
+SELECT firstname FROM teachers WHERE classroom = 110
+Quels enseignants enseignent dans la classe 110 ? Donnez-moi leurs prénoms.
+SELECT firstname FROM teachers WHERE classroom = 110
+Trouvez les noms de famille des enseignants qui enseignent dans la classe 109.
+SELECT lastname FROM teachers WHERE classroom = 109
+Quels professeurs enseignent dans la classe 109 ? Donnez-moi leurs noms de famille.
+SELECT lastname FROM teachers WHERE classroom = 109
+Quels sont les sièges sociaux et les industries de toutes les entreprises ?
+SELECT Headquarters , Industry FROM company
+Quelle est la valeur marchande maximale et minimale des entreprises?
+SELECT max(Market_Value_in_Billion) , min(Market_Value_in_Billion) FROM company
+Combien y a-t-il de films ?
+SELECT count(*) FROM film
+Comptez le nombre de films.
+SELECT count(*) FROM film
+Quelle est la moyenne des ventes brutes de billets en dollars de films ?
+SELECT avg(Gross_in_dollar) FROM film
+Renvoie les ventes brutes moyennes en dollars pour tous les films.
+SELECT avg(Gross_in_dollar) FROM film
+Quelles sont les estimations basses et hautes des marchés du film ?
+SELECT Low_Estimate , High_Estimate FROM film_market_estimation
+Renvoie les estimations basses et hautes pour tous les marchés du film.
+SELECT Low_Estimate , High_Estimate FROM film_market_estimation
+Quel est le nombre maximum et minimum de villes sur tous les marchés.
+SELECT max(Number_cities) , min(Number_cities) FROM market
+Renvoie le nombre maximum et minimum de villes sur tous les marchés.
+SELECT max(Number_cities) , min(Number_cities) FROM market
+Combien de marchés ont un nombre de villes inférieur à 300 ?
+SELECT count(*) FROM market WHERE Number_cities < 300
+Comptez le nombre de marchés qui ont un nombre de villes inférieur à 300.
+SELECT count(*) FROM market WHERE Number_cities < 300
+Combien d'éléments de calendrier avons-nous ?
+SELECT count(*) FROM Ref_calendar
+Comptez le nombre de tous les éléments du calendrier.
+SELECT count(*) FROM Ref_calendar
+Afficher toutes les dates du calendrier et les numéros de jour.
+SELECT calendar_date , day_Number FROM Ref_calendar
+Quelles sont toutes les dates du calendrier et les numéros de jour ?
+SELECT calendar_date , day_Number FROM Ref_calendar
+Afficher le nombre de types de documents.
+SELECT count(*) FROM Ref_document_types
+Combien y a-t-il de types de documents ?
+SELECT count(*) FROM Ref_document_types
+Répertorier tous les codes de type de document et les noms de type de document.
+SELECT document_type_code , document_type_name FROM Ref_document_types
+Quels sont tous les codes de type de document et les noms de type de document ?
+SELECT document_type_code , document_type_name FROM Ref_document_types
+"Quel est le code de type de document pour le type de document ""Papier"" ?"
+"SELECT document_type_code FROM Ref_document_types WHERE document_type_name = ""Paper"""
+"Trouver le code du type de document ""Papier""."
+"SELECT document_type_code FROM Ref_document_types WHERE document_type_name = ""Paper"""
+Afficher le nombre d'emplacements.
+SELECT count(*) FROM Ref_locations
+Combien d'emplacements sont répertoriés dans la base de données ?
+SELECT count(*) FROM Ref_locations
+Répertoriez tous les codes d'emplacement et les noms d'emplacement.
+SELECT location_code , location_name FROM Ref_locations
+Quels sont tous les codes d'emplacement et les noms d'emplacement ?
+SELECT location_code , location_name FROM Ref_locations
+Quels sont le nom et la description du code d'emplacement x ?
+"SELECT location_name , location_description FROM Ref_locations WHERE location_code = ""x"""
+Donnez-moi le nom et la description de l'emplacement avec le code x.
+"SELECT location_name , location_description FROM Ref_locations WHERE location_code = ""x"""
+"Quel est le code de localisation du pays ""Canada"" ?"
+"SELECT location_code FROM Ref_locations WHERE location_name = ""Canada"""
+"Afficher le code de localisation du pays ""Canada""."
+"SELECT location_code FROM Ref_locations WHERE location_name = ""Canada"""
+Affichez le nom, le code de rôle et la date de naissance de l'employé portant le nom « Armani ».
+SELECT employee_name , role_code , date_of_birth FROM Employees WHERE employee_Name = 'Armani'
+Quels sont le nom, le code de poste et la date de naissance de l'employé nommé « Armani » ?
+SELECT employee_name , role_code , date_of_birth FROM Employees WHERE employee_Name = 'Armani'
+Quel est l'identifiant de l'employé appelé Ebba ?
+"SELECT employee_ID FROM Employees WHERE employee_name = ""Ebba"""
+Afficher l'identifiant de l'employé nommé Ebba.
+"SELECT employee_ID FROM Employees WHERE employee_name = ""Ebba"""
+Afficher le code d'emplacement, la date de début et les données de fin à cet emplacement pour tous les documents.
+SELECT location_code , date_in_location_from , date_in_locaton_to FROM Document_locations
+Quels sont le code d'emplacement de chaque document, ainsi que la date de début et les données de fin à cet emplacement ?
+SELECT location_code , date_in_location_from , date_in_locaton_to FROM Document_locations
+Comment s'appellent tous les clubs ?
+SELECT clubname FROM club
+Donnez-moi le nom de chaque club.
+SELECT clubname FROM club
+Combien d'étudiants sont là?
+SELECT count(*) FROM student
+Comptez le nombre total d'élèves.
+SELECT count(*) FROM student
+Trouver le nombre d'élèves au total.
+SELECT count(*) FROM student
+Combien y a-t-il d'élèves au total ?
+SELECT count(*) FROM student
