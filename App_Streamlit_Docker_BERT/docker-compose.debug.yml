@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  streamlitdockerbertapp:
+    image: streamlitdockerbertapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
