@@ -1,6 +1,3 @@
-# NLP_FR2SQL_project
-
-
 ![Copy of Add a heading-01](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a20b9015-2eab-4e58-8991-6617391f6f5b)
 
 ![Copy of Add a heading-02](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/f27cfa20-a9ea-421a-b3f7-2bc255bfba00)
@@ -10,6 +7,8 @@
 ![Copy of Add a heading-04](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/555e344c-e492-4f74-beb4-a265c9c1fc7b)
 
 ![Copy of Add a heading-05](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2a7d7151-80e1-4c62-be9f-0a10ecccb4c8)
+
+![Copy of Add a heading-06](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/0e16d2ef-ca29-4cd1-87c7-67b7f4385801)
 
 ![Copy of Add a heading-07](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/9a69f53e-c394-49fd-8f03-2c6bfbe17408)
 
@@ -25,11 +24,15 @@
 
 ![Copy of Add a heading-14](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/f945e697-4ec3-42ce-8fcc-1b0e4d8522ed)
 
+![Copy of Add a heading-15](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/e6c50b49-b1c1-4131-8dc3-eaf493a4d79b)
+
 ![Copy of Add a heading-16](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/4066998c-e11e-49c2-8860-0df81d6fdeac)
 
 ![Copy of Add a heading-17](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/75495251-0f29-4fe8-aa71-e77daf78987e)
 
 ![Copy of Add a heading-18](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/50f2dc4c-f4cf-4fc7-9b57-3511061fb8db)
+
+![Copy of Add a heading-19](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2d31f8be-9645-4ec4-84b1-1969760688ac)
 
 ![Copy of Add a heading-20](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/ca65452a-1299-4220-b845-a45151f0eebb)
 
@@ -42,6 +45,8 @@
 ![Copy of Add a heading-25](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/b3dc705c-8b3d-4982-b2aa-c8dcae94171f)
 
 ![Copy of Add a heading-26](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/3eb06231-8606-46e0-ac8b-627852d44fa5)
+
+![Copy of Add a heading-27](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/7461c16b-70d2-4992-b7b3-eb2cb2bec5d9)
 
 ![Copy of Add a heading-28](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/5b5bc7a3-de0d-4194-8153-d8b5e6fb5dbd)
 
