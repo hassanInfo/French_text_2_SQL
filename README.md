@@ -1,6 +1,5 @@
 # NLP_FR2SQL_project
 
-![Copy of Add a heading-12](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/30af7ceb-20fd-4c79-b645-72d6a80cb1ff)
 
 ![Copy of Add a heading-01](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a20b9015-2eab-4e58-8991-6617391f6f5b)
 
@@ -23,6 +22,8 @@
 ![Copy of Add a heading-12](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/56ae8644-6193-48af-be68-f967e43fdb64)
 
 ![Copy of Add a heading-13](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2804f480-5ffc-475a-9248-79ac657e67fc)
+
+![Copy of Add a heading-14](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/f945e697-4ec3-42ce-8fcc-1b0e4d8522ed)
 
 ![Copy of Add a heading-16](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/4066998c-e11e-49c2-8860-0df81d6fdeac)
 
