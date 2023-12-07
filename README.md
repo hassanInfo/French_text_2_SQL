@@ -4,21 +4,27 @@
 
 </div>
 
-This 
+This NLP project focuses on advancing the translation of French text to SQL, specifically targeting key SQL commands such as SELECT, FROM, WHERE, and GROUP BY. Four distinct approaches have been rigorously tested to enhance the accuracy and efficiency of the translation process.
 
-![Copy of Add a heading-01](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a20b9015-2eab-4e58-8991-6617391f6f5b)
+## Aproches
 
-![Copy of Add a heading-02](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/f27cfa20-a9ea-421a-b3f7-2bc255bfba00)
-
-![Copy of Add a heading-03](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/56829012-fa5d-4e32-9edb-0048c47a691c)
+The first method we have used is called **ln2sql**, which is located in the repository [[1]](#recouses). It is a rule-based method.
 
 ![Copy of Add a heading-04](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/555e344c-e492-4f74-beb4-a265c9c1fc7b)
 
 ![Copy of Add a heading-05](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2a7d7151-80e1-4c62-be9f-0a10ecccb4c8)
 
+The concept behind the following approach involves fine-tuning on the wikiSQL dataset. One drawback of this method is that, by default, the dataset lacks a defined table name in each record (replaced with mytable).
+
 ![Copy of Add a heading-06](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/0e16d2ef-ca29-4cd1-87c7-67b7f4385801)
 
+In this section, we employed Named Entity Recognition (NER) by treating each token in a French query as an entity. The primary challenge we faced was the absence of a dataset containing both French queries and their corresponding SQL. While English datasets were available, we addressed this gap by constructing a French dataset. We accomplished this by translating English queries from the Spider Dataset to French. Subsequently, through the use of the Doccan software for data annotation, we prepared and trained several machine learning models.
+* We trained an LSTM, which achieved significant results for short sentences. To address this challenge, we proposed utilizing BERT.
+* We conducted finetuning on BERT.
+
 ![Copy of Add a heading-07](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/9a69f53e-c394-49fd-8f03-2c6bfbe17408)
+
+
 
 ![Copy of Add a heading-09](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a8bb588e-77bb-4c8b-a85e-ed02dd4d35e3)
 
@@ -62,6 +68,9 @@ This
 
 
 
+## Recouses
+
+[1](https://github.com/FerreroJeremy/ln2sql)
 
 
 
