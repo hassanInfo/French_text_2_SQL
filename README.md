@@ -6,6 +6,18 @@
 
 This NLP project focuses on advancing the translation of French text to SQL, specifically targeting key SQL commands such as SELECT, FROM, WHERE, and GROUP BY. Four distinct approaches have been rigorously tested to enhance the accuracy and efficiency of the translation process.
 
+Each aproache has its one ipynb file:
+* t5_base_finetuned_wikiSQL_FR2SQL.ipynb
+* NER_FR2SQL_LSTM.ipynb
+* NER_FR2SQL_BERT.ipynb
+* FR2SQL_seq2seq.ipynb
+Data preparation ipynb file:
+* Spider_FR2SQL_processing.ipynb
+Apps:
+* App_Streamlit_Docker_BERT/
+* App_Streamlit_Ngrok_FR2SQL_BERT/
+
+
 ## Aproches
 
 The first method we have used is called **ln2sql**, which is located in the repository [[1]](#recouses). It is a rule-based method.
@@ -14,7 +26,7 @@ The first method we have used is called **ln2sql**, which is located in the repo
 
 ![Copy of Add a heading-05](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2a7d7151-80e1-4c62-be9f-0a10ecccb4c8)
 
-The concept behind the following approach involves fine-tuning on the wikiSQL dataset. One drawback of this method is that, by default, the dataset lacks a defined table name in each record (replaced with mytable).
+The concept behind the following approach involves fine-tuning on the wikiSQL dataset. One drawback of this method is that, by default, the dataset lacks a defined table name in each record (replaced with mytable). Post-processing is required to translate English SQL values into French (like "SELECT name ..." to "SELECT nom ...").
 
 ![Copy of Add a heading-06](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/0e16d2ef-ca29-4cd1-87c7-67b7f4385801)
 
@@ -23,8 +35,6 @@ In this section, we employed Named Entity Recognition (NER) by treating each tok
 * We conducted finetuning on BERT.
 
 ![Copy of Add a heading-07](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/9a69f53e-c394-49fd-8f03-2c6bfbe17408)
-
-
 
 ![Copy of Add a heading-09](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a8bb588e-77bb-4c8b-a85e-ed02dd4d35e3)
 
@@ -45,6 +55,8 @@ In this section, we employed Named Entity Recognition (NER) by treating each tok
 ![Copy of Add a heading-17](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/75495251-0f29-4fe8-aa71-e77daf78987e)
 
 ![Copy of Add a heading-18](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/50f2dc4c-f4cf-4fc7-9b57-3511061fb8db)
+
+The fourth aproch consists of considering the problem as pure translation from one language to another, keep in mind that to train from scratch the transformer seq2seq model need a huge data.  
 
 ![Copy of Add a heading-19](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/2d31f8be-9645-4ec4-84b1-1969760688ac)
 
