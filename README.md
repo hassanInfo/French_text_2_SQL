@@ -4,29 +4,7 @@
 
 </div>
 
-![Copy of Add a heading (1)](https://github.com/hassanInfo/French_text_2_SQL/assets/85229840/04949976-aab9-40f6-b2f6-de553e2431d1)
-
-![Copy of Add a heading (3)](https://github.com/hassanInfo/French_text_2_SQL/assets/85229840/c19ecfc0-2e7f-4b23-8592-3cf0ef1d5c33)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This 
 
 ![Copy of Add a heading-01](https://github.com/hassanInfo/NLP_FR2SQL_project/assets/85229840/a20b9015-2eab-4e58-8991-6617391f6f5b)
 
