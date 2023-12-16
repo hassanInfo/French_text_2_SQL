@@ -18,7 +18,7 @@ Apps:
 * App_Streamlit_Ngrok_FR2SQL_BERT/
 
 
-## Aproches
+## Approaches
 
 The first method we have used is called **ln2sql**, which is located in the repository [[1]](#recourses). It is a rule-based method.
 
